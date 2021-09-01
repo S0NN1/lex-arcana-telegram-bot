@@ -1,0 +1,41 @@
+name: remote ssh command
+on: [push]
+jobs:
+  deploy-bot:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set output
+        id: vars
+        run: echo ::set-output name=short_ref::${GITHUB_REF#refs/*/}
+
+      - name: Check output
+        run: echo ${{ steps.vars.outputs.short_ref }}
+
+      - name: Create ${{ steps.vars.outputs.short_ref }} folder
+        run: |
+          mkdir ../${{ steps.vars.outputs.short_ref }}
+          cp -TR . ../${{ steps.vars.outputs.short_ref }}
+          rm -rf ../${{ steps.vars.outputs.short_ref }}/.git
+
+      - name: Add SSH key
+        env:
+            SSH_AUTH_SOCK: /tmp/ssh_agent.sock
+        run: |
+            mkdir -p /home/runner/.ssh
+            ssh-keyscan -p 22666 -H ${{ secrets.SSH_HOST }} >> ~/.ssh/known_hosts
+            echo "${{ secrets.SSH_PRIVATE_KEY }}"  > /home/runner/.ssh/github_actions
+            chmod 600 /home/runner/.ssh/github_actions
+            ssh-agent -a $SSH_AUTH_SOCK > /dev/null   
+            ssh-add /home/runner/.ssh/github_actions
+
+      - name: Deploy with scp
+        env:
+            SSH_AUTH_SOCK: /tmp/ssh_agent.sock
+        run: scp -P 22666 -r ../${{ steps.vars.outputs.short_ref }}/ ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:~
+
+      - name: Install dependencies and run bot
+        env:
+            SSH_AUTH_SOCK: /tmp/ssh_agent.sock
+        run: |
+            ssh -p 22666 ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} "cd ~/${{ steps.vars.outputs.short_ref }} && ~/.pyenv/shims/pip install -r requirements.txt && cp ~/bot-lex-arcana-tokens/${{ steps.vars.outputs.short_ref }}/.env . && echo ${{ secrets.SSH_PASSWORD }} | sudo service lex-arcana-bot-${{ steps.vars.outputs.short_ref }} restart && echo "completed""
