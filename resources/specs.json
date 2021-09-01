@@ -1,0 +1,480 @@
+{
+    "virtutes": [
+        "Vigor",
+        "Coordinatio",
+        "Auctoritas",
+        "Ingenium",
+        "Sensibilitas",
+        "Ratio"
+    ],
+    "multipliers": [
+        "DeBello",
+        "DeCorpore",
+        "DeMagia",
+        "DeNatura",
+        "DeScientia",
+        "DeSocietate",
+        "MosArcanorum",
+        "PaxDeorum"
+    ],
+    "virtutesByClass": {
+        "1": [
+            "Vigor",
+            "Coordinatio"
+        ],
+        "2": [
+            "Sensibilitas",
+            "Ingenium"
+        ],
+        "3": [
+            "Auctoritas",
+            "Ratio"
+        ],
+        "4": [
+            "Coordinatio",
+            "Sensibilitas"
+        ],
+        "5": [
+            "Ingenium",
+            "Ratio"
+        ],
+        "6": [
+            "Vigor",
+            "Auctoritas"
+        ]
+    },
+    "peritiae": {
+        "DeBello": [
+            "Auctoritas",
+            "Vigor"
+        ],
+        "DeCorpore": [
+            "Vigor",
+            "Coordinatio"
+        ],
+        "DeMagia": [
+            "Sensibilitas",
+            "Ingenium"
+        ],
+        "DeNatura": [
+            "Coordinatio",
+            "Sensibilitas"
+        ],
+        "DeScientia": [
+            "Ratio",
+            "Ingenium"
+        ],
+        "DeSocietate": [
+            "Ratio",
+            "Auctoritas"
+        ]
+    },
+    "peritiaByClass": {
+        "1": "DeCorpore",
+        "2": "DeMagia",
+        "3": "DeSocietate",
+        "4": "DeNatura",
+        "6": "DeBello",
+        "5": "DeScientia"
+    },
+    "aetates": {
+        "young": {
+            "Vigor": 3,
+            "Coordinatio": 3,
+            "Auctoritas": 3,
+            "Ingenium": 3,
+            "Sensibilitas": 3,
+            "Ratio": 3
+        },
+        "adult": {
+            "Vigor": 2,
+            "Coordinatio": 1,
+            "Auctoritas": 4,
+            "Ingenium": 3,
+            "Sensibilitas": 3,
+            "Ratio": 4
+        },
+        "mature": {
+            "Vigor": 1,
+            "Coordinatio": 1,
+            "Auctoritas": 5,
+            "Ingenium": 3,
+            "Sensibilitas": 3,
+            "Ratio": 5
+        }
+    },
+    "hp": {
+        "1": 1,
+        "2": -1,
+        "3": 1,
+        "4": 2,
+        "5": 0,
+        "6": 3
+    },
+    "pietas": {
+        "1": 1,
+        "2": 3,
+        "3": 1,
+        "4": 0,
+        "5": 2,
+        "6": -1
+    },
+    "specs": {
+        "specDeBello": [
+            "specDeBello1",
+            "specDeBello2",
+            "specDeBello3",
+            "specDeBello4",
+            "specDeBello5",
+            "specDeBello6",
+            "specDeBello7",
+            "specDeBello8",
+            "specDeBello9"
+        ],
+        "specDeCorpore": [
+            "specDeCorpore1",
+            "specDeCorpore2",
+            "specDeCorpore3",
+            "specDeCorpore4",
+            "specDeCorpore5",
+            "specDeCorpore6",
+            "specDeCorpore7",
+            "specDeCorpore8",
+            "specDeCorpore9"
+        ],
+        "specDeMagia": [
+            "specDeMagia1",
+            "specDeMagia2",
+            "specDeMagia3",
+            "specDeMagia4",
+            "specDeMagia5",
+            "specDeMagia6",
+            "specDeMagia7",
+            "specDeMagia8",
+            "specDeMagia9"
+        ],
+        "specDeNatura": [
+            "specDeNatura1",
+            "specDeNatura2",
+            "specDeNatura3",
+            "specDeNatura4",
+            "specDeNatura5",
+            "specDeNatura6",
+            "specDeNatura7",
+            "specDeNatura8",
+            "specDeNatura9"
+        ],
+        "specDeScientia": [
+            "specDeScientia1",
+            "specDeScientia2",
+            "specDeScientia3",
+            "specDeScientia4",
+            "specDeScientia5",
+            "specDeScientia6",
+            "specDeScientia7",
+            "specDeScientia8",
+            "specDeScientia9"
+        ],
+        "specDeSocietate": [
+            "specDeSocietate1",
+            "specDeSocietate2",
+            "specDeSocietate3",
+            "specDeSocietate4",
+            "specDeSocietate5",
+            "specDeSocietate6",
+            "specDeSocietate7",
+            "specDeSocietate8",
+            "specDeSocietate9"
+        ]
+    },
+    "specByOrigin": {
+        "1": [
+            "specDeMagia1",
+            "specDeMagia6",
+            "specDeSocietate8",
+            "specDeSocietate2",
+            "specDeScientia1",
+            "specDeScientia2",
+            "specDeScientia5",
+            "specDeScientia6",
+            "specDeScientia3",
+            "specDeScientia7",
+            "specDeScientia8",
+            "specDeScientia9",
+            "specDeScientia4"
+        ],
+        "2": [
+            "specDeMagia5",
+            "specDeMagia3",
+            "specDeScientia1",
+            "specDeScientia3",
+            "specDeSocietate8",
+            "specDeSocietate5",
+            "specDeSocietate1",
+            "specDeSocietate9",
+            "specDeSocietate4",
+            "specDeSocietate6",
+            "specDeSocietate7",
+            "specDeSocietate2",
+            "specDeSocietate3"
+        ],
+        "5": [
+            "specDeMagia2",
+            "specDeMagia7",
+            "specDeScientia2",
+            "specDeScientia5",
+            "specDeNatura1",
+            "specDeNatura2",
+            "specDeNatura3",
+            "specDeNatura4",
+            "specDeNatura6",
+            "specDeNatura7",
+            "specDeNatura8",
+            "specDeNatura9"
+        ],
+        "3": [
+            "specDeBello5",
+            "specDeBello6",
+            "specDeNatura5",
+            "specDeNatura7",
+            "specDeCorpore1",
+            "specDeCorpore2",
+            "specDeCorpore7",
+            "specDeCorpore3",
+            "specDeCorpore4",
+            "specDeCorpore5",
+            "specDeCorpore8",
+            "specDeCorpore9",
+            "specDeCorpore6"
+        ],
+        "4": [
+            "specDeCorpore8",
+            "specDeNatura2",
+            "specDeNatura4",
+            "specDeNatura5",
+            "specDeBello4",
+            "specDeBello5",
+            "specDeBello1",
+            "specDeBello6",
+            "specDeBello7",
+            "specDeBello2",
+            "specDeBello8",
+            "specDeBello9",
+            "specDeBello3"
+        ]
+    },
+    "specByHouse": {
+        "1": {
+            "6": [
+                "specDeSocietate3",
+                "specDeCorpore6",
+                "specDeCorpore2"
+            ],
+            "1": [
+                "specDeBello2",
+                "specDeCorpore4",
+                "specDeCorpore7"
+            ],
+            "3": [
+                "specDeScientia2",
+                "specDeSocietate1",
+                "specDeSocietate9"
+            ],
+            "17": [
+                "specDeMagia1",
+                "specDeScientia7",
+                "specDeScientia8"
+            ],
+            "11": [
+                "specDeScientia6",
+                "specDeScientia9",
+                "specDeScientia4"
+            ],
+            "23": [
+                "specDeSocietate5",
+                "specDeSocietate1",
+                "specDeSocietate7"
+            ]
+        },
+        "2": {
+            "6": [
+                "specDeCorpore4",
+                "specDeCorpore9",
+                "specDeScientia8"
+            ],
+            "8": [
+                "specDeCorpore6",
+                "specDeCorpore8",
+                "specDeSocietate6"
+            ],
+            "10": [
+                "specDeCorpore2",
+                "specDeSocietate8",
+                "specDeSocietate9"
+            ],
+            "19": [
+                "specDeMagia1",
+                "specDeMagia5",
+                "specDeSocietate9",
+                "specDeScientia4"
+            ],
+            "18": [
+                "specDeScientia3",
+                "specDeScientia6",
+                "specDeSocietate4"
+            ],
+            "23": [
+                "specDeSocietate5",
+                "specDeSocietate1",
+                "specDeSocietate2"
+            ]
+        },
+        "5": {
+            "7": [
+                "specDeCorpore5",
+                "specDeNatura1",
+                "specDeNatura3"
+            ],
+            "3": [
+                "specDeCorpore1",
+                "specDeScientia2",
+                "specDeSocietate6"
+            ],
+            "15": [
+                "specDeCorpore1",
+                "specDeSocietate4",
+                "specDeSocietate3"
+            ],
+            "5": [
+                "specDeNatura8",
+                "specDeNatura9",
+                "specDeMagia3"
+            ],
+            "16": [
+                "specDeCorpore1",
+                "specDeNatura7",
+                "specDeNatura1"
+            ],
+            "22": [
+                "specDeMagia2",
+                "specDeMagia8",
+                "specDeSocietate7"
+            ]
+        },
+        "3": {
+            "2": [
+                "specDeNatura1",
+                "specDeSocietate4",
+                "specDeMagia3"
+            ],
+            "4": [
+                "specDeMagia7",
+                "specDeNatura4",
+                "specDeNatura6"
+            ],
+            "19": [
+                "specDeMagia4",
+                "specDeCorpore5",
+                "specDeScientia5"
+            ],
+            "17": [
+                "specDeBello5",
+                "specDeCorpore6",
+                "specDeCorpore7"
+            ],
+            "12": [
+                "specDeNatura8",
+                "specDeNatura3",
+                "specDeScientia9"
+            ],
+            "11": [
+                "specDeBello7",
+                "specDeBello2",
+                "specDeNatura2"
+            ]
+        },
+        "4": {
+            "9": [
+                "specDeBello3",
+                "specDeCorpore2",
+                "specDeCorpore4"
+            ],
+            "21": [
+                "specDeCorpore6",
+                "specDeCorpore9",
+                "specDeNatura9"
+            ],
+            "20": [
+                "specDeBello1",
+                "specDeCorpore3",
+                "specDeNatura2"
+            ],
+            "13": [
+                "specDeNatura4",
+                "specDeNatura5",
+                "specDeSocietate6"
+            ],
+            "19": [
+                "specDeMagia9",
+                "specDeScientia2",
+                "specDeScientia7"
+            ],
+            "14": [
+                "specDeBello1",
+                "specDeBello3",
+                "specDeScientia8"
+            ]
+        }
+    },
+    "bio": {
+        "1": {
+            "1": "1",
+            "3": "4",
+            "6": "8",
+            "11": "15",
+            "17": "21",
+            "23": "29"
+        },
+        "2": {
+            "6": "9",
+            "8": "11",
+            "10": "13",
+            "18": "23",
+            "19": "24",
+            "23": "30"
+        },
+        "3": {
+            "2": "3",
+            "4": "6",
+            "11": "14",
+            "12": "16",
+            "17": "22",
+            "19": "26"
+        },
+        "4": {
+            "9": "12",
+            "13": "17",
+            "14": "18",
+            "19": "25",
+            "20": "27",
+            "21": "28"
+        },
+        "5": {
+            "3": "5",
+            "5": "7",
+            "7": "10",
+            "15": "19",
+            "16": "20",
+            "22": "2"
+        }
+    },
+    "grades": [
+        "Gregarius",
+        "Duplicarius",
+        "Beneficiarius",
+        "Veteranus",
+        "Decanus",
+        "Electus",
+        "Protector"
+    ]
+}

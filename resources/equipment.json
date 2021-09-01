@@ -1,0 +1,171 @@
+{
+    "meleeWeapons": {
+        "9": {
+            "damage": 3,
+            "weight": 0,
+            "difficulty": 3
+        },
+        "10": {
+            "damage": 4,
+            "weight": 1,
+            "difficulty": 4
+        },
+        "11": {
+            "damage": 4,
+            "weight": 2,
+            "difficulty": 4
+        },
+        "12": {
+            "damage": 4,
+            "weight": 2,
+            "difficulty": 4
+        },
+        "13": {
+            "damage": 5,
+            "weight": 2,
+            "difficulty": 5
+        },
+        "14": {
+            "damage": 5,
+            "weight": 2,
+            "difficulty": 5
+        },
+        "15": {
+            "damage": 6,
+            "weight": 2,
+            "difficulty": 6
+        },
+        "16": {
+            "damage": 6,
+            "weight": 3,
+            "difficulty": 6
+        },
+        "17": {
+            "damage": 7,
+            "weight": 3,
+            "difficulty": 7
+        },
+        "18": {
+            "damage": 8,
+            "weight": 3,
+            "difficulty": 8
+        },
+        "19": {
+            "damage": 7,
+            "weight": 3,
+            "difficulty": 7
+        },
+        "20": {
+            "damage": 9,
+            "weight": 4,
+            "difficulty": 9
+        },
+        "21": {
+            "damage": 10,
+            "weight": 4,
+            "difficulty": 10
+        },
+        "22": {
+            "damage": 11,
+            "weight": 5,
+            "difficulty": 11
+        },
+        "23": {
+            "damage": 12,
+            "weight": 7,
+            "difficulty": 12
+        },
+        "24": {
+            "damage": 12,
+            "weight": 5,
+            "difficulty": 12
+        },
+        "25": {
+            "damage": 13,
+            "weight": 6,
+            "difficulty": 13
+        }
+    },
+    "rangedWeapons": {
+        "1": {
+            "damage": 3,
+            "weight": 1,
+            "difficulty": 3
+        },
+        "2": {
+            "damage": 4,
+            "weight": 1,
+            "difficulty": 4
+        },
+        "3": {
+            "damage": 5,
+            "weight": 2,
+            "difficulty": 5
+        },
+        "4": {
+            "damage": 6,
+            "weight": 3,
+            "difficulty": 6
+        },
+        "5": {
+            "damage": 8,
+            "weight": 4,
+            "difficulty": 8
+        },
+        "6": {
+            "damage": 10,
+            "weight": 4,
+            "difficulty": 10
+        },
+        "7": {
+            "damage": 12,
+            "weight": 1,
+            "difficulty": 6
+        },
+        "8": {
+            "damage": 14,
+            "weight": 1,
+            "difficulty": 7
+        }
+    },
+    "armors": {
+        "Corium Lorica": {
+            "protection": 3,
+            "weight": 3
+        },
+        "Lorica Squamata": {
+            "protection": 4,
+            "weight": 4
+        },
+        "Lorica Hamata": {
+            "protection": 5,
+            "weight": 5
+        },
+        "Lorica Plumata": {
+            "protection": 6,
+            "weight": 6
+        },
+        "Lorica Segmentata": {
+            "protection": 8,
+            "weight": 8
+        },
+        "Lorica Musculata": {
+            "protection": 10,
+            "weight": 10
+        }
+    },
+    "shields": {
+        "Parma": {
+            "defense": 1,
+            "weight": 2
+        },
+        "Clipeus": {
+            "defense": 2,
+            "weight": 4
+        },
+        "Scutum": {
+            "defense": 3,
+            "weight": 6
+        }
+    }
+}

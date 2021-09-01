@@ -1,0 +1,1263 @@
+    {
+        "en_US": {
+            "weaponsDescriptions": {
+                "1": "Traits",
+                "2": "Range"
+            },
+            "class": {
+                "1": "Assassin 🗡️",
+                "2": "Augur 📜",
+                "3": "Diplomat 🎖",
+                "4": "Explorer 🌍",
+                "5": "Sage 🔮",
+                "6": "Warrior ⚔️"
+            },
+            "house": {
+                "1": "Clientes",
+                "2": "Closed community",
+                "3": "Craftsman",
+                "4": "Exile",
+                "5": "Farmer",
+                "6": "Freedman",
+                "7": "Fugitive",
+                "8": "Labourer",
+                "9": "Legionary",
+                "10": "Lenone/Lanista",
+                "11": "Magistrate",
+                "12": "Medic",
+                "13": "Merchant",
+                "14": "Military Tribune",
+                "15": "Musician",
+                "16": "Noble",
+                "17": "Officer",
+                "18": "Patrician",
+                "19": "Priest",
+                "20": "Refugee",
+                "21": "Sheperd",
+                "22": "Slumlord",
+                "23": "Wealthy Patrician"
+            },
+            "origin": {
+                "1": "Civitas",
+                "2": "Colony",
+                "3": "Isolated Place",
+                "4": "Limes",
+                "5": "Vicus"
+            },
+            "specs": {
+                "specDeBello": {
+                    "1": "Castra",
+                    "2": "Intimidate",
+                    "3": "Tactics",
+                    "4": "Bows",
+                    "5": "Haxes and Clubs",
+                    "6": "Darts",
+                    "7": "Spears",
+                    "8": "Daggers",
+                    "9": "Swords"
+                },
+                "specDeCorpore": {
+                    "1": "Feast",
+                    "2": "Pickpocket",
+                    "3": "Stealth",
+                    "4": "Fight",
+                    "5": "March",
+                    "6": "Climbing",
+                    "7": "Running",
+                    "8": "Swimming",
+                    "9": "Jumping"
+                },
+                "specDeMagia": {
+                    "1": "Imperial Cults",
+                    "2": "Forbidden Cults",
+                    "3": "Superstictions",
+                    "4": "Clairvoyance",
+                    "5": "Divine Favor",
+                    "6": "Interpreting Omens",
+                    "7": "Dream Interpretation",
+                    "8": "Precognition",
+                    "9": "Retrocognition"
+                },
+                "specDeNatura": {
+                    "1": "Hunting",
+                    "2": "Riding",
+                    "3": "Herbalism",
+                    "4": "Exploration",
+                    "5": "Navigation",
+                    "6": "Orientation:",
+                    "7": "Gather Food",
+                    "8": "Animal Knowledge",
+                    "9": "Weather"
+                },
+                "specDeScientia": {
+                    "1": "Architecture",
+                    "2": "Craftmanship",
+                    "3": "Geography",
+                    "4": "History",
+                    "5": "Decipher",
+                    "6": "Philosophy",
+                    "7": "Investigate",
+                    "8": "Machinae",
+                    "9": "Medicine"
+                },
+                "specDeSocietate": {
+                    "1": "Decorum",
+                    "2": "Politics",
+                    "3": "Charm",
+                    "4": "Entertainment",
+                    "5": "Lead",
+                    "6": "Negotiate",
+                    "7": "Oratory",
+                    "8": "Slums",
+                    "9": "Trick"
+                }
+            },
+            "stats": {
+                "1": "Damage",
+                "2": "Defense",
+                "3": "Difficulty",
+                "4": "Protection",
+                "5": "Range",
+                "6": "Traits",
+                "7": "Weight"
+            },
+            "combatSkills": {
+                "1": {
+                    "name": "Fatal blow",
+                    "description": "If your total weight is equal or lower than half of your max health (rounded down) and the current weapon has base damage equal or lower than 4, you can use De Corpore instead of De Bello for closed range attacks. Dice bonus from De Bello specializations can be applied normally."
+                },
+                "2": {
+                    "name": "Holy foresight",
+                    "description": "Once per tempus, you can force an enemy to reroll De Bello."
+                },
+                "3": {
+                    "name": "Call to arms",
+                    "description": "During an encounter, once per tempus, you can choose an ally that rolled De Bello and force a reroll (the previous dice's result is discarded)."
+                },
+                "4": {
+                    "name": "Manhunter",
+                    "description": "If your current weapon has a base damage equal or lower than 6, you can use De Corpore instead of De Natura for closed range attacks. Dice bonus from De Bello specializations can be applied normally."
+                },
+                "5": {
+                    "name": "Achilles heel",
+                    "description": "Once per tempus, you can reroll once any damage roll (attack) or protection roll (prevent damage). You must always use the second roll."
+                },
+                "6": {
+                    "name": "Heroes duty",
+                    "description": "During encounters, at the start of each tempus, you can engage one enemy more than your normal max. You can always choose which enemy to engage."
+                }
+            },
+            "indigitamenta": {
+                "1": "An Assassin whose last dice roll is a De Corpore one, you can reroll the same dice set and add the result to the precedent one.",
+                "2": "An Augur whose last dice roll is a De Magia one, you can reroll the same dice set and add the result to the precedent one.",
+                "3": "A Diplomat whose last dice roll is a De Societate one, you can reroll the same dices set and add the result to the precedent one.",
+                "4": "An Explorer whose last dice roll is a De Natura one, you can reroll the same dice set and add the result to the precedent one.",
+                "5": "A Sage whose last dice roll is a De Scentia one, you can reroll the same dice set and add the result to the precedent one.",
+                "6": "A Warrior whose last dice roll is a De Bello one, you can reroll the same dice set and add the result to the precedent one."
+            },
+            "ui": {
+                "group": {
+                    "campaignTitles": {
+                        "1": "Name ✍️: ",
+                        "2": "Dungeon Master 📜: ",
+                        "3": "Players 🎮",
+                        "4": "Username 👽: ",
+                        "5": "Character Name 💬: ",
+                        "6": "Character Class 🧬"
+                    },
+                    "diceNumber": {
+                        "1": "Choose how many dice you wanna throw: between 1 and 10"
+                    },
+                    "diceDesc": {
+                        "1": "Each row represents a dice with its related faces"
+                    },
+                    "diceValue": {
+                        "1": "Thrown: "
+                    },
+                    "characterImportKeyboard": {
+                        "1": "Import from file 📂",
+                        "2": "Random creation 🔀"
+                    },
+                    "characterImport": {
+                        "1": "Import from file 📂: import character from .json file like the provided template\n",
+                        "2": "Random creation 🔀: create a random character\n"
+                    },
+                    "characterImport2": {
+                        "1": "Download the template and modify according to the translations.json\n"
+                    },
+                    "welcomeMessage": {
+                        "1": "Hi, thank you for adding Lex Arcana Telegram Bot to this chat!\nLet's start by creating the first group campaign!"
+                    },
+                    "warnMessage": {
+                        "1": "First Campaign already created, please use /menu"
+                    },
+                    "warnMessage2": {
+                        "1": "Campaign already created, archive it before creating a new one!"
+                    },
+                    "warnMessage3": {
+                        "1": "Bot alrready initialized, use /menu and the actions in it!"
+                    },
+                    "warnMessage4": {
+                        "1": "Cannot create two campaigns at the same time!"
+                    },
+                    "wrongMessage": {
+                        "1": "Wrong answer!\nPlease select one option from the menu"
+                    },
+                    "confirmMessage": {
+                        "1": "Are you sure?"
+                    },
+                    "yesOrNo": {
+                        "1": "Yes",
+                        "2": "No"
+                    },
+                    "groupLanguage": {
+                        "1": "Select group's language."
+                    },
+                    "campaignName": {
+                        "1": "Insert campaign name"
+                    },
+                    "campaignCreation": {
+                        "1": "Do you want to join * campaign with @ as the dungeon master?\nCurrently accepted:\n"
+                    },
+                    "campaignArchived": {
+                        "1": "Campaign archived successfully!"
+                    },
+                    "campaignConfirmation": {
+                        "1": "After all members joined the campaign, confirm it."
+                    },
+                    "campaignNoActive": {
+                        "1": "No active campaign, create it before executing this action!"
+                    },
+                    "campaignInvalid": {
+                        "1": "Invalid response, deleting campaign ❌."
+                    },
+                    "campaignWithNoPlayers":{
+                        "1": "No players in current campaign\nIn order to start, a campign must have at least one player in it!"
+                    },
+                    "campaignDelete": {
+                        "1": "Deleting campaign ❌."
+                    },
+                    "campaignSuccess": {
+                        "1": "✅ Campaign successfully created!"
+                    },
+                    "campaignAnswers": {
+                        "1": "✅ Confirm campaign",
+                        "2": "❌ Cancel campaign"
+                    },
+                    "startMenu": {
+                        "1": "Create Campaign 🐉"
+                    },
+                    "dmActionWarn": {
+                        "1": "Action not permitted, exclusively for the DM!"
+                    },
+                    "menu": {
+                        "1": "Active Campaign 🐉: active campaign\n",
+                        "2": "Attack ⚔️: attack a mob\n",
+                        "3": "Roll Dice 🎲: roll dice with/without modifiers\n",
+                        "4": "Players 🎮: list players of active campaign\n",
+                        "5": "Create New Campaign 🐉: \n",
+                        "6": "Close Campaign ❌: close current campaign.\n"
+                    },
+                    "menuKeyboard": {
+                        "1": "Active Campaign 🐉",
+                        "2": "Attack ⚔️",
+                        "3": "Roll Dice 🎲",
+                        "4": "Players 🎮",
+                        "5": "Create New Campaign 🐉",
+                        "6": "Close Campaign ❌"
+                   },
+                    "menuMessage": {
+                        "1": "Type /menu to open the bot's menu!"
+                    },
+                    "notImplemented": {
+                        "1": "Action yet to be implemented"
+                    }
+                },
+                "private": {
+                    "notImplemented": {
+                        "1": "Action yet to be implemented"
+                    },
+                    "welcomeMessage": {
+                        "1": "Hi, thank you for adding Lex Arcana Telegram Bot to this chat!"
+                    },
+                    "privateLanguage": {
+                        "1": "Select chat's language."
+                    },
+                    "menuMessage": {
+                        "1": "Type /menu to open the bot's menu!"
+                    },
+                    "menu": {
+                        "1": "My Campaigns 🐉: display current active campaigns\n"
+                    },
+                    "menuKeyboard": {
+                        "1": "My Campaigns 🐉"
+                    },
+                    "hpMenuKeyboard": {
+                        "1": "Percentage",
+                        "2": "Value"
+                    },
+                    "hpMenu": {
+                        "1": "Percentage: insert a percentage value of the target character\n",
+                        "2": "Value: insert a global value"
+                    },
+                    "hpValue": {
+                        "1": "Insert the value"
+                    },
+                    "hpChoose": {
+                        "1": "Choose a player"
+                    },
+                    "hpRestored": {
+                        "1": "Health Points restored"
+                    },
+                    "dungeonMasterCampaignMenu": {
+                        "1": "Characters 👨‍👨‍👧‍👧: display all characters\n",
+                        "2": "Restore HP 🧪: restore hp to a single player (choose between percentage or value)\n",
+                        "3": "Campfire 🏕: restore full hp to all players\n",
+                        "4": "Create Monster 👹: create a monster and start an encounter\n",
+                        "5": "Create Drop 🏹: create a drop and assign it to a player\n",
+                        "6": "Back to menu ⬅️: return to main menu"
+                    },
+                    "dungeonMasterCampaignMenuKeyboard": {
+                        "1": "Characters 👨‍👨‍👧‍👧",
+                        "2": "Restore HP 🧪",
+                        "3": "Campfire 🏕",
+                        "4": "Create Monster 👹",
+                        "5": "Create Drop 💰",
+                        "6": "Back to menu ⬅️"
+                    },
+                    "playerCampaignMenu": {
+                        "1": "Character 🛡️: display own character\n",
+                        "2": "Characters 👨‍👨‍👧‍👧: display all characters\n",
+                        "3": "Export Character 📁: export own character in a .json file\n",
+                        "4": "Back to menu ⬅️: return to main menu\n"
+                    },
+                    "playerCampaignMenuKeyboard": {
+                        "1": "Character 🛡️",
+                        "2": "Characters 👨‍👨‍👧‍👧",
+                        "3": "Export Character 📁",
+                        "4": "Back to menu ⬅️"
+                    },
+                    "characterCreationKeyboard": {
+                        "1": "Create Character 🛡️"
+                    },
+                    "characterCreation": {
+                        "1": "Create Character 🛡️: create your character in the current campaign\n"
+                    },
+                    "characterTitles": {
+                        "1": "Name ✍️",
+                        "2": "Gender 🎎",
+                        "3": "Aetas ⌛",
+                        "4": "Province 🏘️",
+                        "5": "Languages 💬",
+                        "6": "City 🏠",
+                        "7": "Origin 🗺️",
+                        "8": "House 🔰",
+                        "9": "Class 🧬",
+                        "10": "Grade 🏅",
+                        "11": "Health Points ❤️",
+                        "12": "Weight 🎒",
+                        "13": "Virtutes 📖",
+                        "14": "Peritiae 🏆",
+                        "15": "Pietas 🔺",
+                        "16": "Multipliers 🎲",
+                        "17": "Armor 🥋",
+                        "18": "Shield 🛡️",
+                        "19": "Melee Weapons ⚔️",
+                        "20": "Ranged Weapons 🏹",
+                        "21": "Inventory 📦",
+                        "22": "Indigitamenta 🙏",
+                        "23": "Combat Skills 🥊",
+                        "24": "Bio 📝"
+                    },
+                    "backToMenu": {
+                        "1": "Back to menu ⬅️"
+                    },
+                    "chooseCampaign": {
+                        "1": "Choose a campaign"
+                    },
+                    "info": "Bot Info 📖"
+                }
+            },
+            "weapons": {
+                "1": {
+                    "name": "Sling",
+                    "traits": [],
+                    "range": [
+                        "1"
+                    ]
+                },
+                "2": {
+                    "name": "Plumbata",
+                    "traits": [],
+                    "range": [
+                        "2"
+                    ]
+                },
+                "3": {
+                    "name": "Angon",
+                    "traits": [],
+                    "range": [
+                        "2"
+                    ]
+                },
+                "4": {
+                    "name": "Arcus",
+                    "traits": [
+                        "1"
+                    ],
+                    "range": [
+                        "1"
+                    ]
+                },
+                "5": {
+                    "name": "Toxon",
+                    "traits": [
+                        "1"
+                    ],
+                    "range": [
+                        "1"
+                    ]
+                },
+                "6": {
+                    "name": "Pilum",
+                    "traits": [],
+                    "range": [
+                        "3"
+                    ]
+                },
+                "7": {
+                    "name": "Manubalista",
+                    "traits": [],
+                    "range": [
+                        "1"
+                    ]
+                },
+                "8": {
+                    "name": "Gastraphetes",
+                    "traits": [
+                        "1",
+                        "4"
+                    ],
+                    "range": [
+                        "1"
+                    ]
+                },
+                "9": {
+                    "name": "Pugio",
+                    "traits": []
+                },
+                "10": {
+                    "name": "Sica",
+                    "traits": []
+                },
+                "11": {
+                    "name": "Club",
+                    "traits": [
+                        "2"
+                    ]
+                },
+                "12": {
+                    "name": "Throwing stick",
+                    "traits": []
+                },
+                "13": {
+                    "name": "Scramasax",
+                    "traits": [
+                        "2"
+                    ]
+                },
+                "14": {
+                    "name": "Machaira",
+                    "traits": []
+                },
+                "15": {
+                    "name": "Gladius",
+                    "traits": []
+                },
+                "16": {
+                    "name": "Spear",
+                    "traits": [
+                        "3",
+                        "2"
+                    ]
+                },
+                "17": {
+                    "name": "Securicula",
+                    "traits": [
+                        "3"
+                    ]
+                },
+                "18": {
+                    "name": "Ensis",
+                    "traits": []
+                },
+                "19": {
+                    "name": "Kopesh",
+                    "traits": [
+                        "3"
+                    ]
+                },
+                "20": {
+                    "name": "Malleus",
+                    "traits": [
+                        "2"
+                    ]
+                },
+                "21": {
+                    "name": "Spatha",
+                    "traits": [
+                        "2"
+                    ]
+                },
+                "22": {
+                    "name": "Securis",
+                    "traits": [
+                        "2"
+                    ]
+                },
+                "23": {
+                    "name": "Hasta",
+                    "traits": [
+                        "2"
+                    ]
+                },
+                "24": {
+                    "name": "Falx",
+                    "traits": [
+                        "1"
+                    ]
+                },
+                "25": {
+                    "name": "Bipennis",
+                    "traits": [
+                        "1"
+                    ]
+                }
+            },
+            "traits": {
+                "1": "Double welded",
+                "2": "Versatile",
+                "3": "Throwing weapon",
+                "4": "Slow"
+            },
+            "range": {
+                "1": "Long",
+                "2": "Medium",
+                "3": "Short"
+            },
+            "bio": {
+                "1": "In Roman cities there is not always a strict delimitation between the elegant neighborhoods and those of the shacks, between the villas of the patricians and the very high palaces where immigrants, freedmen, priests of some strange cult and little outlaws chased away from neighboring countries. However, your family has always considered themselves lucky to be rented in an accommodation inside one of these huge insulae, built like the others in economy, with thin walls, ready to collapse in the first great storm or for the shock of a earthquake. The proximity to the patrician neighborhoods helped your father to become one of the clientes of an aristocratic patron, who paid the rent, guaranteed food (la sportula) and a decent quality of life. In return, your father had to accompany him everywhere, even outside the city, give him his and his family's vote in public assemblies, support him in case of intimidation and scuffles against opposing political factions.",
+                "2": "Your father was a highly regarded lecturer. He spent most of the year touring the major cities of the Empire, invited to give public lectures in which a large crowd attended. When he was tired, he would return here, to his rich family estate, to rest and write in his favorite room. In his orations he spoke of Plato and Aristotle, but also of Pythagoreanism and Orphism and how to classify the spirits that are among men and gods. He was often accused of being a magician, a theurge capable of practicing telestiké to imprison the divine essences and command them. You remember very well his vehemence in replying to those infamous accusations and in specifying that he was only a philosophus platonicus. But you also remember very well those rooms on the estate that were always closed and into which no one was allowed to enter.",
+                "3": "You were born in a community that is part of an ethnic, linguistic or religious minority. Your people had never been very welcome in the region and had had to move to increasingly remote locations, far from the hostility of the villages and the indifference of the imperial authorities. The last few years had not been very good: deaths had exceeded births and many young people had left, tired of enduring isolation and the archaic traditions that prohibited certain foods, occupations and mixed marriages. There were few children to play with and the general atmosphere was that of a people destined to disappear. The best memories of your childhood are connected to the great celebrations, during which the whole community gathered; we all ate together, we laughed and, knowingly, we didn't talk about tomorrow.",
+                "4": "Your family home was a set of a few rooms in an overcrowded neighborhood, where lenones (brothel keepers), gladiators, prostitutes and postulants cohabited. Luckily, your folks didn't have much in common with those people. During the day, every room and every member of the family was busy carrying on the business of your father, a craftsman or merchant who produced and stored his items in a room that served as a workshop, butcher or warehouse. The goods were then sold in the largest room, overlooking a narrow alley flanked by dead ends and uphill or downhill passages. At the worst times, you were forced to look for customers and display merchandise (whether it was slippers, fabrics, vases, jewelry, furniture, wigs, bread, sweets, fish and meat) on makeshift stalls in the Foro area.",
+                "5": "The handicrafts from this region were in high demand in the cities, and your family members were among the most skilled at making them. After all, it is still the same occupation in which your grandparents were masters, and the grandparents of their grandparents. And, the more the years passed, the greater was the number of merchants and onlookers who came to the village to buy and barter. Sometimes they brought family members, servants and armed guards with them, filling the spartan inns that faced the street.",
+                "6": "Before moving here, in the midst of beautiful and wild nature, your parents lived in a big city. They could not have children and officiated to the gods with passion and humility. Over the years, they could no 1er see true pietas in the crowds who prayed to the gods of the Empire, especially during official holidays, which seemed an excuse for sacred prostitution and the collection of money. True devotion, unfortunately, was found only in the prayers and rites of the followers of false gods: the lamentations of the women who worshiped Isis, the moving stories about the death of Christ, the ritual mutilations of the faithful of Cybele. One day, your parents left everything behind and walked away. In lonely places devoid of temptations they have rediscovered faith in Mars, Jupiter, Juno and the other gods who made Rome great. And a sacrifice to Venus Genetrix was enough to give you birth ...",
+                "7": "Your family, like many others in the village, regularly participated in the celebrations of the Official Cult, sacrificed to the Roman gods and lit a flame in front of the Lari statuettes every time someone loved married or went on a long sea voyage. But in your family, as in many others in town, it was not the exploits of Hercules or Jupiter that were told to the children. The heroes and spirits that populated your childhood dreams were different, closer ... You could sense their presence when the wind blew and you saw them running in animal form just outside the village; it was they who made the tide rise or push the thick clouds down the valleys. But it was wiser to whisper these things than to speak out loud, because the line between tolerated and forbidden cults has always been very, very blurred.",
+                "8": "You lived your childhood among the marginalized and miserable of the city, who spent their days in search of daily sustenance.Your house, if you had one, was little more than a dump and your family members (escaped slaves or freedmen) didn't care much for you and your education, too busy begging or juggling and fortune tellers, to prostitute themselves in brothels or in an incessant wandering in the dusty surroundings of the Forum to swindle some unwary arrived from the countryside. Things could have been even worse for you if your relatives had been real latrones (thugs, brigands) dedicated to theft, kidnapping or murder, who ended their days in the darkness of a cell or nailed to a cross .",
+                "9": "Your father was a freedman, a freed slave, but unlike the fathers of your friends, every morning he went out of the house proud of his work. And he went out armed. He was one of the city vigiles, in charge of putting out fires, ensuring a police service in the streets and among the first to intervene in the event of riots. We are too few; you heard him repeat it over and over, and when he began to talk about his day, it was rarely cheerful tales: poor people beaten up by other poor people, prostitutes and dancers beaten to death by untouchable nobles, people kidnapped or murdered for a handful of sesterces, horrible fires that destroyed crumbling insulae or wooden shrines of some strange religion in a few hours. But at least he was trying to change things and you too would like to do the same. ",
+                "10": "Many villages are far from the province's centers of power and this one where you were born is one of the farthest. It was not chosen by chance by your father, who, for reasons he never wanted to explain to you, fled his land and got here. Was he a slave who had run away from his master? A patrician who had to disappear due to a scandal? A great poet who offended the Emperor with his verses? Then, he married your mother, a local girl, who helped him to integrate into the community, to give him a new homeland and a new life. It took many years, however, before he stopped hanging out with bad people, having horrible nightmares or constantly looking around when he walked the streets of the town.",
+                "11": "Hard workers: this is the first thing you remember about your parents. Your mother took care of your education alone and that of your brothers and sisters, at the same time preparing small jewels or embroidering fabrics to sell, repairing slippers and sewing cloaks. Your father and other family members were busy most of the day going to the sea, or working at the market, or on construction sites, or building buildings as workers. Food was never lacking, even this tea. you remember it, and there was no lack of affection from relatives and the friendship of neighbors, always ready to lend a hand when things were not going well.",
+                "12": "Your father was a former legionnaire and used to lead. In thanks for the decades of loyal service, the Empire had granted him a spiky parcel of land on the edge of the world. It didn't take 1 before other discontented people came to his orders, forming a gang that initially stole animals, but which then went on to kidnap, murder, free the slaves. Your refuge was beyond the limes, where you lived with the families of the other latrones. Everything changed when the governor of the province appointed a prefect to solve the problem. Hunted by the legionaries, one day your father sent away all his wives, concubines and children, including you. Then, the bandits faced their final battle with their heads held high. Their bodies were displayed on the streets for weeks as a warning to the population.",
+                "13": "As young as you were little, you didn't realize that your family's profession wasn't the most respectable. Wandering around the streets of the center in search of young men and women who have just arrived from the countryside and convincing them to get easy money if they accompanied themselves to wealthy customers, was certainly not something to be proud of. Your family was hated by everyone and you too were treated by your peers worse than the children of thieves, murderers and self-styled priests of perverse oriental cults. And it was not uncommon for groups of youngsters, including those who gladly used the services offered by your family's business, to arrive drunk in the middle of the night throwing stones at your house shouting \"give it to the peasant!\".",
+                "14": "You are the only son of one of the highest-ranking officials in this remote settlement. Not that it meant much... in fact, your father probably stepped on someone more important than him if he was sent here and not to a real city. To complicate matters, your mother, a1 with many other women in the area, had become a cult of Christ and took you with her to pray and assist the derelict. Your father accused her of wasting time and money and of denying the gods of the Empire. For some time, he repudiated her and expelled her from the country. She left with true faith in her heart, securing a reward in the afterlife. From what you learned, he spent the following years in a Christian community that lived isolated, at peace with nature, men and the father in heaven who had created every living being.",
+                "15": "Having a prominent imperial official or magistrate in the family characterized your childhood. Whether it was the collaborator of a Praetor (for civil or criminal causes), or the assistant of one of the Comites (high ranks of the army or administration), or one of the Ediles (who dealt with the distribution of food and of the growth of the city), or of a commissioner, it didn't matter: your quality of life and education was much higher than average. You were able to attend some excellent private schools and it was not unusual for your parents to be greeted by representatives of municipal institutions and members of the city curia while walking around town, inviting you to big parties in splendid buildings outside the city.",
+                "16": "If over time this area had depopulated, the reason was because, regardless of age, people were dying. Perhaps due to a malignant fever originating in the swamps, which disappeared for a few years and then returned more virulent than ever, or due to a contagious epidemic brought by slaves, which terribly disfigured the bodies before killing them, or even of consumption and consumption, which they passed from animals to men, driving them mad first and then dying in pain. Many villages had been abandoned and only rats and packs of stray dogs were on the streets. But your family remained, because your father was Asclepius' doctor and priest and your mother helped him. day or night they treated the sick and assisted the dying, trying to alleviate the suffering, without any real hope of being able to save their lives. When they got sick, they sent you away, to distant relatives. You have not heard anything more.",
+                "17": "It was exciting for you to live near an important and popular access to the limes. The people who populated the territories beyond had been at peace with Rome for centuries, were fluent in the language of the Empire, had adopted many of its customs and worshiped similar gods. The border did not represent at all an obstacle to trade, reciprocal visits, mixed marriages. Even your parents, well-known merchants, often went to those foreign lands and, from a certain age, always took you with them. Sometimes you went very far, a little for work, a little for the desire for knowledge and admired the great creations of man and nature. Your mother liked to repeat that, after all, the border was only a matter of mind.",
+                "18": "Those who arrived unprepared were impressed and incredulous in the face of the mighty and grandiose fortifications that ran for tens of miles in this area of ​​the limes: ditches, watchtowers, embankments, high stone walls. The defensive works never seemed to be enough in the face of the pressure of the cruel peoples who cyclically tried to pass. A harsher winter than usual, a summer without rain or a death of cattle was enough and here, hundreds of armed and desperate barbarians lashed out with violence against everything that represented Rome. Your father directed the military operations from the immense castra. He was not easily frightened or duped by the speeches of self-styled sages or by the cries of women. If Rome was still standing, it was also thanks to him.",
+                "19": "Your father could play a variety of instruments decently, but it was your mother and her sisters who danced with the grace of the goddesses and were also in great demand from neighboring villages for special celebrations and parties. Work was never lacking, although your family had to learn which tasks to avoid, as the situation became very difficult on some occasions. They called them \"Greek\" parties and took place in the large houses or palaces of enriched officials and settlers: more than parties, they were parades of dancers and prostitutes who undressed on request in front of young and old who ate and drank until they fainted. or become harassing and violent.",
+                "20": "It often happened that, during a celebration, the major tribal authority in the region had drunk a little too much and talked about when, in the distant past, his village was the most important in the area. In those days, sacrifices were offered to the ancient gods in front of thousands of faithful and true armies would go out to do battle. It wasn't just ranting; the stories handed down in your family found a depressing confirmation if you wandered in that part of the town that was on the opposite side from the access road to the village. You could walk on the ruins of what was once a much larger and more populated village, of which only half-buried ruins remained that extended for tens, perhaps hundreds of meters, until they became almost indistinguishable in the landscape. The world had changed and the ancient gods no 1er showed up...",
+                "21": "Your father was a junior municipal official, paid little and always at work. He served as the secretary of some major official or as a simple scribe, or he was sent around town to complete unsatisfactory assignments. Sometimes, he had to accompany one of the Tresviri Nocturni all night in patrolling the streets and suffer the insults of the young drunken nobles returning from some brothel. He has often had to make do with other jobs to keep the family a semblance of decorum and dignity; strenuous jobs, such as teaching in poorly attended public schools, or dangerous, such as accepting money in exchange for favors and helping in the collection of money lent to usury.",
+                "22": "The inhabitants of your small village were engaged in the same occupation. Whether it was sawing gigantic trees and then leading them downstream with the help of a river current, digging in an open pit or inside the tunnels of a salt mine, it was in any case a grueling job, suitable more for a slave than to a free man. Your father was one of the few who spent his days sitting at a table, because he knew how to write and calculate. His job was to record everything and compile weekly reports, such as the amount of material produced, the wages distributed, the tools to be replaced, and the number of those who died from work. The latter were not few and never, never would he have allowed his children to end up doing a similar job.",
+                "23": "Your family was aristocratic, like many others in the city, but it stood out because not all of its interests were directed towards politics or the judiciary. In the grand patrician palace of your parents, philosophers, natural scientists, rhetoricians and great doctors were often invited, even from very distant places. On these occasions your home became a pole of attraction for the intellectual elite of the entire province, transforming itself into a cenacle of scholars and writers: passages by the great authors of the past were read aloud and poems and prayers were recited. . You lived in a kind of world separated from reality, projected into a mythical past populated by gods, saints and great philosophers, but it was by no means an unpleasant thing. You have been educated like the sons of the noblest Senators of Rome itself!",
+                "24": "\"The gods have softened!\" This was the favorite phrase of your father, a priest of Jupiter Restitutor. He was in charge of officiating the celebrations and making sacrifices in an ancient temple, which served as a reference point for the community. Everything was going well, until the day when the construction of a huge, splendid sanctuary of Isis and Serapis had begun, which in a short time had attracted huge crowds from all over the region, including those who until recently went to pray in the temple of Jupiter. Since then your father got angry more easily and regretted the past centuries, when the gods did not allow foreign cults, barbaric and vulgar, to take root within the Empire. And if only they tried, it wasn't long before their statues were thrown into the river, their self-styled priests fed to lions, and their fanatical followers forced to live like rats in the catacombs",
+                "25": "Your family ran a large mansio (inn) with a tavern attached to it. Legionaries, officers and people of ill repute from the four corners of the Empire happily chatted with your father and talked to him about the lands where the sun rises, about an ancient but eternally young god, with an immortal soul and atonement for sins. Do you remember how it was yesterday when your father first took you with him to a dark rectangular room in the basement of a large house and how he initiated you into the secrets of the god Mithras in front of the statue of a boy who killed a giant bull. In the semi-darkness, you recognized the faces of soldiers, officers and officials, but if you met them on the street, during the day, they would not even greet you. They later explained to you that it was an Eastern mystery cult, recognized and tolerated by the Empire, spread from the valleys of Britain to the great rivers of Mesopotamia, but which required secrecy and discretion.",
+                "26": "Over the years, your father had become increasingly unsocial and taciturn. The only person he gladly saw was a kind of priest-philosopher, who had decided to spend his old age as far as possible from the 'horrible temptations of the sordid sack of mud' that was his physical body. It was said that he was a Gnostic and that instead of the gods he worshiped those he called the four great prophets: Orpheus, Abraham, Jesus and Apollonius of Tyana. One morning, your father left the house and never came back. They told you that he had walked for days to some ancient ruins, had climbed a high column and had never gone down. Every day, an increasing number of proselytes came to him and brought him food and drink and stayed for hours to worship and pray. Years later, you went to see for yourself: your father was very thin and seemed to be a hundred years old. You like to think that he recognized you and that the grimace on his face was regret.",
+                "27": "Those who would become your new parents took care of the training and health of the horses of the neighboring castrates. They found you alive in the middle of a desolate area, where they took horses to run and graze, the only survivor of a small group of strangers who died of starvation, cold, disease or mauled by wild animals. a son. It was not difficult to imagine what had happened: some families of the people beyond the limes had to flee, due to an internal war, a famine or a natural disaster, abandoning everything they owned. They had crossed the border of the glorious and tolerant Roman Empire in secret, full of hope. But the authorities and villagers had driven them out, insulted them and denied them any help. death was probably a liberation.",
+                "28": "As a child they told you about borders crossed by caravans carrying precious goods and objects never seen before, or by exotic emissaries carrying messages of peace and war, or by columns of legionaries who went to export the Pax Romana. Your border was very different ... The lands that extended beyond the wall or the great river or an invisible li that was lost in the sand, the mountains or the sea, seemed devoid of any trace of human being. Nature dominated unchallenged there, with moors or deserts or impenetrable forests. As a child, you spent hours hoping to see an invading army that would come to threaten the existence of the Empire and that glittering Roman legions would face it in a battle worthy of Homer or Virgil. Your father, a pastor and your older brothers al v waited with you, telling you amazing stories about gods and heroes.",
+                "29": "The villa of your noble family did not look out of place compared to the others: equally large and sumptuous, with dozens of slaves who took care of the work necessary for the food, clothing and maintenance of the house. Your family lived in a kind of closed economy, without any need to turn to free workers such as artisans and small traders: slaves were enough for every need. Throughout your childhood you have been followed by a tutor, who took care of your education, directing you towards your future cursus honorum and the desirable profession of lawyer or politician, so that you could then access the most important city magistracies or the governorate. of a province. Like your father did, and his father before him.",
+                "30": "Your noble family prided itself on being related to some of the oldest aristocratic families, including that of the governor. Not that he ever showed up at your house, as far as you remember. In any case, as usual, many members of your family had continued their cursus honorum in the provincial capital and made carriages within the judiciary, receiving important political or military posts. Then, one of them was accused of corruption and embezzlement and was put on trial. Despite the best lawyers, his assets were seized and he was sent into exile, in a place too close to those barbarian peoples who hated Rome. He sent many letters so that his sentence was suspended as soon as possible, but your parents replied to be calm, to wait for time to pass. And in the future, just be a little more careful."
+            },
+            "languages": {
+                "1": "Latin",
+                "2": "Etruscan",
+                "3": "Greek",
+                "4": "Italic (Oscan)",
+                "5": "Gaulish",
+                "6": "Punic",
+                "7": "Illyrian",
+                "8": "Dacian",
+                "9": "Norse",
+                "10": "Thracian",
+                "11": "Phrygian",
+                "12": "Germanic",
+                "13": "Iberic",
+                "14": "Celtic (Breton)",
+                "15": "Celtic (Celtiberian)",
+                "16": "British",
+                "17": "Celtic (Siluric)",
+                "18": "Rhaetian",
+                "19": "Celtic (Belgian)",
+                "20": "Celtic (Helvetico)",
+                "21": "Aramaic",
+                "22": "Armenian",
+                "23": "Anatolian (Cilician)",
+                "24": "Persian",
+                "25": "Coptic",
+                "26": "Hebrew",
+                "27": "Egyptian",
+                "28": "Arabic",
+                "29": "Berber"
+            },
+            "equipment": {
+                "1": "clothes",
+                "2": "flintlock",
+                "3": "stick", 
+                "4": "chain",
+                "5": "rope",
+                "6": "whetstone",
+                "7": "achillea erb",
+                "8": "sickle",
+                "9": "mess tin",
+                "10": "field pot",
+                "11": "razor",
+                "12": "rations (7 days)",
+                "13": "bag",
+                "14": "saw"
+            },
+            "gender": {
+                "male": "Male",
+                "female": "Female"
+            }
+        },
+        "it_IT": {
+            "weaponsDescriptions": {
+                "1": "Caratteristiche",
+                "2": "Gittata"
+            },
+            "class": {
+                "1": "Assassino 🗡️",
+                "2": "Augure 📜",
+                "3": "Diplomatico 🎖",
+                "4": "Esploratore 🌍",
+                "5": "Sapiente 🔮",
+                "6": "Guerriero ⚔️"
+            },
+            "house": {
+                "1": "Clientes",
+                "2": "Comunità Chiusa",
+                "3": "Artigiano",
+                "4": "Esule",
+                "5": "Agricoltore",
+                "6": "Liberto",
+                "7": "Fuggitivo",
+                "8": "Manovale",
+                "9": "Legionario",
+                "10": "Lenone/Lanista",
+                "11": "Magistrato",
+                "12": "Medico",
+                "13": "Mercante",
+                "14": "Tribuno Militare",
+                "15": "Musicista",
+                "16": "Nobile",
+                "17": "Funzionario",
+                "18": "Patrizio",
+                "19": "Sacerdote",
+                "20": "Profugo",
+                "21": "Pastore",
+                "22": "Latifondista",
+                "23": "Ricco Patrizio"
+            },
+            "origin": {
+                "1": "Civitas",
+                "2": "Colonia",
+                "3": "Posto isolato",
+                "4": "Limes",
+                "5": "Vicus"
+            },
+            "specs": {
+                "specDeBello": {
+                    "1": "Castra",
+                    "2": "Minacciare",
+                    "3": "Tattica",
+                    "4": "Archi",
+                    "5": "Asce e Mazze",
+                    "6": "Dardi",
+                    "7": "Lance",
+                    "8": "Pugnali",
+                    "9": "Spade"
+                },
+                "specDeCorpore": {
+                    "1": "Banchettare",
+                    "2": "Borseggiare",
+                    "3": "Furtività",
+                    "4": "Lotta",
+                    "5": "Marciare",
+                    "6": "Arrampicarsi",
+                    "7": "Correre",
+                    "8": "Nuotare",
+                    "9": "Saltare"
+                },
+                "specDeMagia": {
+                    "1": "Culti Imperiali",
+                    "2": "Culti Proibiti",
+                    "3": "Superstizioni",
+                    "4": "Chiaroveggenza",
+                    "5": "Favore degli Dei",
+                    "6": "Interpretazione dei Presagi",
+                    "7": "Interpretazione dei Sogni",
+                    "8": "Precognizione",
+                    "9": "Retrocognizione"
+                },
+                "specDeNatura": {
+                    "1": "Cacciare",
+                    "2": "Cavalcare",
+                    "3": "Erboristeria",
+                    "4": "Esplorazione",
+                    "5": "Navigazione",
+                    "6": "Orientamento",
+                    "7": "Recuperare Cibo",
+                    "8": "Sapienza Animale",
+                    "9": "Tempo Atmosferico"
+                },
+                "specDeScientia": {
+                    "1": "Architettura",
+                    "2": "Artigianato",
+                    "3": "Geografia",
+                    "4": "Storia",
+                    "5": "Decifrare",
+                    "6": "Filosofia",
+                    "7": "Indagare",
+                    "8": "Machinae",
+                    "9": "Medicina"
+                },
+                "specDeSocietate": {
+                    "1": "Decorum",
+                    "2": "Politica",
+                    "3": "Seduzione",
+                    "4": "Intrattenimento",
+                    "5": "Comandare",
+                    "6": "Negoziare",
+                    "7": "Oratoria",
+                    "8": "Bassifondi",
+                    "9": "Ingannare"
+                }
+            },
+            "stats": {
+                "1": "Danno",
+                "2": "Parata",
+                "3": "Difficoltà",
+                "4": "Protezione",
+                "5": "Gittata",
+                "6": "Caratteristiche",
+                "7": "Ingombro"
+            },
+            "combatSkills": {
+                "1": {
+                    "name": "Colpo letale",
+                    "description": "Se il suo Ingombro totale è pari o inferiore alla metà dei suoi Punti Vita massimi (arrotondata per difetto) e l’arma che sta utilizzando ha un punteggio di Danno base pari a 4 o meno, l’Assassino può usare De Corpore al posto di De Bello per effettuare attacchi ravvicinati. Punti Dado bonus derivanti da una pertinente Specializzazione di De Bello possono essere normalmente applicati al tiro."
+                },
+                "2": {
+                    "name": "Preveggenza benedetta",
+                    "description": "Una volta per tempus, l’Augure può costringere un avversario a sua scelta a ripetere un tiro di De Bello effettuato anche se superiore al primo."
+                },
+                "3": {
+                    "name": "Chiamata alle armi",
+                    "description": "Durante un combattimento, una volta per tempus il Diplomatico può scegliere un alleato che ha appena effettuato un tiro di De Bello: l’alleato ripete quel tiro (deve tenere il nuovo risultato)."
+                },
+                "4": {
+                    "name": "Cacciatore di uomini",
+                    "description": "Se usa un’arma con un valore base di Danno pari a 6 o meno, un Esploratore può utilizzare De Natura al posto di De Bello per effettuare gli attacchi a distanza. Punti di De Bello possono essere normalmente applicati al tiro."
+                },
+                "5": {
+                    "name": "Tallone d'Achille",
+                    "description": "Una volta per tempus, il Sapiente può ripetere un qualsiasi tiro che ha appena effettuato per i danni (che infligge) o di protezione (per evitare di subirne). Il Sapiente deve utilizzare il secondo risultato, anche se inferiore al primo."
+                },
+                "6": {
+                    "name": "Dovere degli eroi",
+                    "description": "Durante il combattimento, all’inizio di ogni tempus, il Guerriero può volontariamente ingaggiare un avversario in più rispetto al numero di avversari che potrebbe normalmente ingaggiare, indipendentemente da quale schieramento sia in inferiorità numerica. Inoltre, il Guerriero può sempre decidere quali nemici ingaggiare."
+                }
+            },
+            "indigitamenta": {
+                "1": "Un Assassino che ha effettuato un tiro di De Corpore può usare questa invocazione per tirare di nuovo la stessa combinazione di dadi e sommare il risultato al precedente.",
+                "2": "Un Augure che ha effettuato un tiro di De Magia può usare questa invocazione per tirare di nuovo la stessa combinazione di dadi e sommare il risultato al precedente.",
+                "3": "Un Diplomatico che ha effettuato un tiro di De Societate può usare questa invocazione per tirare di nuovo la stessa combinazione di dadi e sommare il risultato al precedente.",
+                "4": "Un Esploratore che ha effettuato un tiro di De Natura può usare questa invocazione per tirare di nuovo la stessa combinazione di dadi, e sommare il risultato al precedente.",
+                "5": "Un Sapiente che ha effettuato un tiro di De Scientia può usare questa invocazione per tirare di nuovo la stessa combinazione di dadi e sommare il risultato al precedente.",
+                "6": "Un Guerriero che ha effettuato un tiro di De Bello può usare questa invocazione per tirare di nuovo la stessa combinazione di dadi e sommare il risultato al precedente."
+            },
+            "ui": {
+                "group": {
+                    "campaignTitles": {
+                        "1": "Nome ✍️: ",
+                        "2": "Dungeon Master 📜: ",
+                        "3": "Giocatori 🎮",
+                        "4": "Username 👽: ",
+                        "5": "Nome Personaggio 💬: ",
+                        "6": "Classe Peronaggio 🧬: "
+                    },
+                    "diceNumber": {
+                        "1": "Scegli quanti dadi tirare: da un minimo di 1 a un massimo di 10"
+                    },
+                    "diceDesc": {
+                        "1": "Ogni riga rappresenta un dado con le sue relative facce"
+                    },
+                    "diceValue": {
+                        "1": "Ottenuto: "
+                    },
+                    "characterImport": {
+                        "1": "Importa da file 📂: importa da file .son come da template\n",
+                        "2": "Creazione randomica 🔀: crea un personaggio random\n"
+                    },
+                    "characterImport2": {
+                        "1": "Scarica il template e modificalo in accordo con translations.json\n"
+                    },
+                    "characterImportKeyboard": {
+                        "1": "Importa da file 📂",
+                        "2": "Creazione randomica 🔀"
+                    },
+                    "welcomeMessage": {
+                        "1": "Ciao, grazie per aver aggiunto Lex Arcana Telegram Bot in questa chat!\nIniziamo creando la prima campagna di gruppo!"
+                    },
+                    "warnMessage": {
+                        "1": "Prima campagna già create, per favore usa /menu."
+                    },
+                    "warnMessage2": {
+                        "1": "Campagna già create, per favore archiviala prima di crearne una nuova"
+                    },
+                    "warnMessage3": {
+                        "1": "Bot già inizializzato, usa /menu e le azioni in esso!"
+                    },
+                    "warnMessage4": {
+                        "1": "Non è possibile creare due campagne insieme!"
+                    },
+                    "wrongMessage": {
+                        "1": "Risposta sbagliata!\nPer favore seleziona una opzione del menu."
+                    },
+                    "confirmMessage": {
+                        "1": "Sei sicuro?"
+                    },
+                    "yesOrNo": {
+                        "1": "Sì",
+                        "2": "No"
+                    },
+                    "groupLanguage": {
+                        "1": "Seleziona la lingua del gruppo"
+                    },
+                    "campaignName": {
+                        "1": "Inserisci il nome della campagna."
+                    },
+                    "campaignWithNoPlayers":{
+                        "1": "Nessun giocatore ha accettato la campagna.\nAlmeno un giocatore deve entrare nella campagna per iniziarla!"
+                    },
+                    "campaignDelete": {
+                        "1": "Cancello campagna ❌."
+                    },
+                    "campaignConfirmation": {
+                        "1": "Quando tutti i giocatori hanno accettato, conferma la campagna."
+                    },
+                    "campaignNoActive": {
+                        "1": "Nessuna campagna attiva, creala prima di eseguire questa azione!"
+                    },
+                    "campaignCreation": {
+                        "1": "Vuoi unirti alla campagna * con @ come dungeon master?\nAttualmente accettato:\n"
+                    },
+                    "campaignArchived": {
+                        "1": "Campagna archiviata con successo!"
+                    },
+                    "campaignInvalid": {
+                        "1": "Risposta non valida, cancello la campagna ❌."
+                    },
+                    "campaignAnswers": {
+                        "1": "✅ Conferma campagna",
+                        "2": "❌ Cancella campagna"
+                    },
+                    "campaignSuccess": {
+                        "1": "✅ Campagna creata con successo!"
+                    },
+                    "startMenu": {
+                        "1": "Crea Campagna 🐉"
+                    },
+                    "dmActionWarn": {
+                        "1": "Azione non permessa, solo il DM può eseguirla!"
+                    },
+                    "menu": {
+                        "1": "Campagna Attiva 🐉: campagna in gioco.\n",
+                        "2": "Attacca ⚔️: attacca un mob.\n",
+                        "3": "Lancia Dadi 🎲: lancia dei dadi con/senza modificatori.\n",
+                        "4": "Players 🎮: elenca giocatori della campagna attiva.\n",
+                        "5": "Crea Nuova Campagna 🐉.\n",
+                        "6": "Chiudi Campagna ❌: chiudi la campagna corrente.\n",
+                        "7": "Cambia Lingua: attualmente selezionata 🇮🇹.\n"
+                    },
+                    "menuKeyboard": {
+                        "1": "Campagna Attiva 🐉",
+                        "2": "Attacca ⚔️",
+                        "3": "Lancia Dadi 🎲",
+                        "4": "Giocatori 🎮",
+                        "5": "Crea Nuova Campagna 🐉",
+                        "6": "Chiudi Campagna ❌"
+                    },
+                    "menuMessage": {
+                        "1": "Scrivi /menu per aprire il menu del bot!"
+                    },
+                    "notImplemented": {
+                        "1": "Azione non ancora implementata"
+                    }
+                },
+                "private": {
+                    "notImplemented": {
+                        "1": "Azione non ancora implementata"
+                    },
+                    "welcomeMessage": {
+                        "1": "Ciao, grazie per aver aggiunto Lex Arcana Telegram Bot!"
+                    },
+                    "privateLanguage": {
+                        "1": "Seleziona la lingua della chat."
+                    },
+                    "menuMessage": {
+                        "1": "Scrivi /menu per aprire il menu del bot!"
+                    },
+                    "menu": {
+                        "1": "Le Mie Campagne 🐉: mostra le tue campagne attive\n"
+                    },
+                    "menuKeyboard": {
+                        "1": "Le Mie Campagne 🐉"
+                    },
+                    "hpMenuKeyboard": {
+                        "1": "Percentuale",
+                        "2": "Valore"
+                    },
+                    "hpMenu": {
+                        "1": "Percentuale: inserisci un valore percentuale della vita del personaggio bersagliato\n",
+                        "2": "Valore: inserisci un valore globale"
+                    },
+                    "hpValue": {
+                        "1": "Inserisci il valore"
+                    },
+                    "hpChoose": {
+                        "1": "Scegli un giocatore"
+                    },
+                    "hpRestored": {
+                        "1": "Punti Vita ripristinati"
+                    },
+                    "dungeonMasterCampaignMenu": {
+                        "1": "Personaggi 👨‍👨‍👧‍👧: mostra tutti i personaggi\n",
+                        "2": "Ricarica HP 🧪: ricarica hp a un solo giocatore (scelta tra percentuale o valore)\n",
+                        "3": "Falò 🏕: ricarica tutti gli hp a tutti i giocatori\n",
+                        "4": "Crea Mostro 👹: crea mostro e avvia un scontro\n",
+                        "5": "Crea Drop 🏹: crea drop e assegnalo a un giocatore\n",
+                        "6": "Torna indietro al menu ⬅️: ritorna al menu principale\n"
+                    },
+                    "dungeonMasterCampaignMenuKeyboard": {
+                        "1": "Personaggi 👨‍👨‍👧‍👧",
+                        "2": "Ricarica HP 🧪",
+                        "3": "Falò 🏕",
+                        "4": "Crea Mostro 👹",
+                        "5": "Crea Drop 💰",
+                        "6": "Torna indietro al menu ⬅️"
+                    },
+                    "playerCampaignMenu": {
+                        "1": "Personaggio 🛡️: mostra il proprio personaggio\n",
+                        "2": "Personaggi 👨‍👨‍👧‍👧: mostra tutti i personaggi\n",
+                        "3": "Esporta Personaggio 📁: esporta il proprio personaggio in un file .json\n",
+                        "4": "Torna indietro al menu ⬅️: ritorna al menu principale\n"
+                    },
+                    "playerCampaignMenuKeyboard": {
+                        "1": "Personaggio 🛡️",
+                        "2": "Personaggi 👨‍👨‍👧‍👧",
+                        "3": "Esporta Personaggio 📁",
+                        "4": "Torna indietro al menu ⬅️"
+                    },
+                    "characterCreationKeyboard": {
+                        "1": "Crea Personaggio 🛡️"
+                    },
+                    "characterCreation": {
+                        "1": "Crea Personaggio 🛡️: crea il personaggio della campagna attiva\n"
+                    },
+                    "characterTitles": {
+                        "1": "Nome ✍️",
+                        "2": "Genere 🎎",
+                        "3": "Aetas ⌛",
+                        "4": "Provincia 🏘️",
+                        "5": "Linguaggi 💬",
+                        "6": "Colonia 🏠",
+                        "7": "Origine 🗺️",
+                        "8": "Famiglia 🔰",
+                        "9": "Qualifica 🧬",
+                        "10": "Grado 🏅",
+                        "11": "Punti Vita ❤️",
+                        "12": "Ingombro 🎒",
+                        "13": "Virtutes 📖",
+                        "14": "Peritiae 🏆",
+                        "15": "Pietas 🔺",
+                        "16": "Moltiplicatori 🎲",
+                        "17": "Armatura 🥋",
+                        "18": "Scudo 🛡️",
+                        "19": "Armi Ravvicinate ⚔️",
+                        "20": "Armi a Distanza 🏹",
+                        "21": "Inventario 📦",
+                        "22": "Indigitamenta 🙏",
+                        "23": "Abilità da Combattimento 🥊",
+                        "24": "Bio 📝"
+                    },
+                    "backToMenu": {
+                        "1": "Torna indietro al menu ⬅️"
+                    },
+                    "chooseCampaign": {
+                        "1": "Scegli una campagna"
+                    },
+                    "info": "Bot Info 📖"
+                }
+            },
+            "weapons": {
+                "1": {
+                    "name": "Fionda",
+                    "traits": [],
+                    "range": [
+                        "1"
+                    ]
+                },
+                "2": {
+                    "name": "Plumbata",
+                    "traits": [],
+                    "range": [
+                        "2"
+                    ]
+                },
+                "3": {
+                    "name": "Angon",
+                    "traits": [],
+                    "range": [
+                        "2"
+                    ]
+                },
+                "4": {
+                    "name": "Arcus",
+                    "traits": [
+                        "1"
+                    ],
+                    "range": [
+                        "1"
+                    ]
+                },
+                "5": {
+                    "name": "Toxon",
+                    "traits": [
+                        "1"
+                    ],
+                    "range": [
+                        "1"
+                    ]
+                },
+                "6": {
+                    "name": "Pilum",
+                    "traits": [],
+                    "range": [
+                        "3"
+                    ]
+                },
+                "7": {
+                    "name": "Manubalista",
+                    "traits": [],
+                    "range": [
+                        "1"
+                    ]
+                },
+                "8": {
+                    "name": "Gastraphetes",
+                    "traits": [
+                        "1",
+                        "4"
+                    ],
+                    "range": [
+                        "1"
+                    ]
+                },
+                "9": {
+                    "name": "Pugio",
+                    "traits": []
+                },
+                "10": {
+                    "name": "Sica",
+                    "traits": []
+                },
+                "11": {
+                    "name": "Randello",
+                    "traits": [
+                        "2"
+                    ]
+                },
+                "12": {
+                    "name": "Bastone 3",
+                    "traits": []
+                },
+                "13": {
+                    "name": "Scramasax",
+                    "traits": [
+                        "2"
+                    ]
+                },
+                "14": {
+                    "name": "Machaira",
+                    "traits": []
+                },
+                "15": {
+                    "name": "Gladius",
+                    "traits": []
+                },
+                "16": {
+                    "name": "Lancia",
+                    "traits": [
+                        "3",
+                        "2"
+                    ]
+                },
+                "17": {
+                    "name": "Securicula",
+                    "traits": [
+                        "3"
+                    ]
+                },
+                "18": {
+                    "name": "Ensis",
+                    "traits": []
+                },
+                "19": {
+                    "name": "Kopesh",
+                    "traits": [
+                        "3"
+                    ]
+                },
+                "20": {
+                    "name": "Malleus",
+                    "traits": [
+                        "2"
+                    ]
+                },
+                "21": {
+                    "name": "Spatha",
+                    "traits": [
+                        "2"
+                    ]
+                },
+                "22": {
+                    "name": "Securis",
+                    "traits": [
+                        "2"
+                    ]
+                },
+                "23": {
+                    "name": "Hasta",
+                    "traits": [
+                        "2"
+                    ]
+                },
+                "24": {
+                    "name": "Falx",
+                    "traits": [
+                        "1"
+                    ]
+                },
+                "25": {
+                    "name": "Bipennis",
+                    "traits": [
+                        "1"
+                    ]
+                }
+            },
+            "traits": {
+                "1": "A due mani",
+                "2": "Versatile",
+                "3": "Da Lancio",
+                "4": "Lenta"
+            },
+            "range": {
+                "1": "Lunga",
+                "2": "Media",
+                "3": "Corta"
+            },
+            "bio": {
+                    "1": "Nelle città romane non c’è sempre una rigida delimitazione tra i quartieri eleganti e quelli delle baracche, tra le ville dei patrizi e gli altissimi palazzi dove trovano alloggio anche gli immigrati, i liberti, i sacerdoti di qualche strano culto e i piccoli fuorilegge cacciati dai paesi vicini.  La tua famiglia si è però sempre considerata fortunata a essere in affitto in un alloggio all’interno di una di queste enormi insulae, costruita come le altre in economia, coi muri sottili, pronta a crollare alla prima grande tempesta o per la scossa di un terremoto.  La vicinanza ai quartieri patrizi ha aiutato tuo padre a diventare uno dei clientes di un patron aristocratico, che pagava l’affitto, garantiva il cibo (la sportula) e una decorosa qualità di vita. In cambio, tuo padre lo doveva accompagnare ovunque, anche fuori città, dargli il voto suo e della sua famiglia nelle assemblee pubbliche, appoggiarlo in caso di intimidazioni e tafferugli contro le fazioni politiche avversarie.",
+                    "2": "Tuo padre era un conferenziere molto apprezzato. Passava gran parte dell’anno a girare per le maggiori città dell’Impero, invitato a tenere lezioni pubbliche alle quali partecipava una gran folla. Quando era stanco, tornava qui, nella sua ricca tenuta di famiglia, a riposarsi e a scrivere nella sua stanza preferita. Nelle sue orazioni parlava di Platone e di Aristotele, ma anche del Pitagorismo e dell’Orfismo e di come classificare gli spiriti che stanno tra gli uomini e gli dèi. Veniva spesso accusato di essere un mago, un teurgo in grado di praticare la telestiké per imprigionare le essenze divine e comandarle. Ricordi molto bene la sua veemenza nel ribattere a quelle accuse infamanti e nello specificare che lui era soltanto un philosophus platonicus. Ma ricordi anche molto bene quelle stanze nella tenuta che rimanevano sempre chiuse e nelle quali nessuno aveva il permesso di entrare.",
+                    "3": "Sei nato in una comunità che fa parte di una minoranza etnica, linguistica o religiosa. La tua gente non era mai stata molto gradita nelle regione e si era dovuta spostare in località sempre più remote, distanti dall’ostilità dei villaggi e dall’indifferenza delle autorità imperiali. Gli ultimi anni non erano stati molto buoni: le morti avevano superato le nascite e molti giovani se n’erano andati, stanchi di sopportare l’isolamento e le arcaiche tradizioni che proibivano determinati cibi, occupazioni e i matrimoni misti. Erano pochi i bambini coi quali giocare e l’atmosfera generale era quella di un popolo destinato a sparire. I ricordi più belli della tua infanzia sono collegati alle grandi celebrazioni, durante le quali tutta la comunità si riuniva; si mangiava tutti insieme, si rideva e, consapevolmente, non si parlava del domani.",
+                    "4": "La dimora della tua famiglia era un insieme di poche stanze in un quartiere sovrappopolato, in cui coabitavano lenones (tenutari di bordelli), gladiatori, prostitute e postulanti. Per fortuna, i tuoi non avevano molto in comune con quella gente. Durante il giorno, ogni stanza e ogni membro della famiglia era impegnato a portare avanti l’attività di tuo padre, un artigiano o un commerciante che produceva e conservava i suoi articoli in una stanza che fungeva da officina, macelleria o deposito. Le merci venivano poi vendute nella stanza più grande, affacciata su una stretta viuzza fiancheggiata da vicoli ciechi e passaggi in salita o in discesa. Nei momenti peggiori, eravate obbligati a cercare voi i clienti e a esporre la mercanzia (che si trattasse di ciabatte, tessuti, vasi, monili, mobili, parrucche, pane, dolci, pesci e carne) su banchetti improvvisati nella zona del Foro.",
+                    "5": "I prodotti di artigianato di questa regione erano molto richiesti nelle città e i membri della tua famiglia erano tra i più abili a realizzarli. In fin dei conti è sempre la stessa occupazione nella quale erano maestri i tuoi nonni, e i nonni dei loro nonni. E, più gli anni passavano, maggiore era il numero di mercanti e curiosi che arrivavano al villaggio a comprare e barattare. A volte si portavano dietro familiari, servitori e guardie armate, riempiendo le spartane locande che si affacciavano sulla strada.",
+                    "6": "Prima di trasferirsi qui, in mezzo a una natura splendida e selvaggia, i tuoi genitori abitavano in una grande città. Non riuscivano ad avere figli e officiavano agli dèi con passione e umiltà. Col passare degli anni, non riuscivano più a vedere nelle folle che pregavano gli dèi dell’Impero una vera pietas, soprattutto durante le feste ufficiali, che sembravano una scusa per la prostituzione sacra e la raccolta di denaro. La vera devozione, purtroppo, si trovava solo nelle preghiere e nei riti dei seguaci di falsi dèi: le lamentazioni delle donne che veneravano Iside, le commoventi storie sulla morte del Cristo, le mutilazioni rituali dei fedeli di Cibele. Un giorno, i tuoi genitori hanno lasciato tutto alle spalle e se ne sono andati. In luoghi solitari e privi di tentazioni hanno ritrovato la fede in Marte, Giove, Giunone e gli altri dèi che hanno reso grande Roma. Ed è bastato un sacrificio a Venere Genetrix per farti nascere...",
+                    "7": "La tua famiglia, come molte altre nel villaggio, partecipava regolarmente alle celebrazioni del Culto Ufficiale, sacrificava agli dèi romani e accendeva una fiamma davanti alle statuette del Lari ogni volta che qualcuno di caro si sposava o partiva per un lungo viaggio per mare. Ma nella tua famiglia, come in molte altre in paese, non erano le imprese di Ercole o Giove a essere raccontate ai bambini. Gli eroi e gli spiriti che hanno popolato i tuoi sogni durante l’infanzia erano diversi, più vicini... Potevi percepirne la presenza quando soffiava il vento e li vedevi correre in forma di animale appena fuori dal villaggio; erano loro a far alzare la marea o spingere le dense nubi giù lungo le valli. Ma queste cose era più saggio sussurrarle che parlarne ad alta voce, perché il confine tra i culti tollerati e quelli proibiti è sempre stato molto, molto labile.",
+                    "8": "Hai vissuto la tua infanzia tra gli emarginati e i miserabili della città, che passavano le giornate alla ricerca del sostentamento quotidiano. La tua casa, se ne avevi una, era poco più di una topaia e i membri della tua famiglia (schiavi fuggiti o liberti) non si sono occupati molto di te e della tua educazione, troppo impegnati a elemosinare oppure dediti alle loro attività di giocolieri e indovini, a prostituirsi nei lupanari o in un incessante girovagare nei polverosi dintorni del Foro a truffare qualche sprovveduto arrivato dalla campagna.  Le cose ti potrebbero essere andate anche peggio se i tuoi parenti fossero stati veri e propri latrones (malviventi, briganti) dediti al furto, al rapimento o all’omicidio, che hanno concluso i loro giorni nel buio di una cella o inchiodati a una croce.",
+                    "9": "Tuo padre era un liberto, uno schiavo liberato, ma a differenza dei padri dei tuoi amici, ogni mattina usciva di casa orgoglioso del suo lavoro. E usciva armato. Era uno dei vigiles della città, incaricato di spegnere gli incendi, assicurare un servizio di polizia nelle strade e tra i primi a intervenire nel caso di sommosse. Siamo troppo pochi; glielo sentivi ripetere in continuazione e, quando iniziava a parlare della sua giornata, raramente si trattava di racconti allegri: poveracci malmenati da altri poveracci, prostitute e danzatrici massacrate di botte da nobili intoccabili, gente sequestrata o assassinata per un pugno di sesterzi, orribili incendi che distruggevano in poche ore fatiscenti insulae o i santuari in legno di qualche strana religione. Ma almeno lui ci provava a cambiare le cose e anche tu vorresti fare lo stesso.",
+                    "10": "Molti villaggi sono lontani dai centri del potere della provincia e questo dove sei nato è uno dei più lontani. Non è stato scelto a caso da tuo padre, che per ragioni che non ti ha mai voluto spiegare è fuggito dalla sua terra ed è arrivato fin qui. Era uno schiavo fuggito dal padrone? Un patrizio che è dovuto sparire a causa di uno scandalo? Un grande poeta che coi suoi versi ha offeso l’Imperatore? Poi, ha sposato tua madre, una ragazza del posto, che l’ha aiutato a inserirsi nella comunità, a dargli una nuova patria e una nuova vita. Ci sono voluti molti anni però prima che smettesse di frequentare brutta gente, di fare orribili incubi o di guardarsi costantemente intorno quando camminava per le vie dell’abitato.",
+                    "11": "Gran lavoratori: questa è la prima cosa che ricordi dei tuoi genitori. Tua madre si occupava da sola della tua educazione e di quella dei tuoi fratelli e sorelle, preparando allo stesso tempo piccoli monili o ricamava stoffe da vendere, riparava ciabatte e ricuciva mantelli. Tuo padre e altri membri della famiglia erano invece impegnati gran parte della giornata ad andare per mare, o lavorare al mercato, o nei cantieri, o nella costruzione di edifici come operai. Il cibo non mancava mai, anche questo te lo ricordi, e non mancava l’affetto dei parenti e l’amicizia dei vicini, sempre pronti a dare una mano quando le cose non si mettevano bene.",
+                    "12": "Tuo padre era un ex legionario ed era abituato a comandare. Come ringraziamento per i decenni di leale servizio, l’Impero gli aveva concesso un picco arido appezzamento di terra ai confini del mondo. Non ci è voluto molto prima che altri scontenti si mettessero ai suoi ordini, a formare una banda che inizialmente rubava animali, ma che poi era passat sequestrare, assassinare, liberare gli schiavi. Il vostro rifugio si trovava al di là del limes, dove vivevate con le famiglie degli altri latrones. Tutto è cambi quando il Governatore della provincia ha dato incarico a un Prefetto di risolvere il problema. Braccato dai legionari, un giorno tuo padre ha mandato via tutte le mogli, le concubine e i bambini, te compreso. Poi, i banditi hanno affrontato la loro ult battaglia a testa alta. I loro corpi sono stati esposti lungo le strade per settimane, come monito per la popolazione.",
+                    "13": "Finché eri piccolo, non ti sei reso conto che la professione della tua famiglia non era tra le più rispettabili. Aggirarsi fra le strade del centro alla ricerca di giovani e giovinette appena arrivati dalla campagna e convincerli a ottenere del denaro facile se si accompagnavano a clienti facoltosi, non era certo una cosa di cui andare fieri. La tua famiglia era detestata da tutti e anche tu venivi trattato dai tuoi coetanei peggio dei figli di ladri, assassini e sedicenti sacerdoti di perversi culti orientali. E non era cosa rara che gruppi di giovinastri, compresi quelli che volentieri usufruivano dei servizi offerti dall’attività della tua famiglia, arrivassero ubriachi in piena notte a lanciare sassi contro la tua casa al grido di “dagli al lenone!”.",
+                    "14": "Sei l’unico figlio di uno dei funzionari di più alto livello presenti in questo sperduto insediamento. Non che significasse molto... anzi, probabilmente tuo padre aveva pestato i piedi a qualcuno di più importante di lui se era stato mandato qui e non in una vera città. A complicare le cose, tua madre, assieme a molte altre donne della zona, si era convertita culto del Cristo e ti portava con sé a pregare e ad assistere i derelitti. Tuo padre l’accusava di buttare via tempo e soldi e di rinnegare gli dèi dell’Impero. D qualche tempo, l’ha ripudiata e cacciata dal paese. Lei se n’è andata via con la vera fede nel cuore, si- cura in una ricompensa nell’aldilà. Da quel che hai saputo, ha passato gli anni successivi in una comunità cristiana che viveva isolata, in pace con la natura,  uomini e il padre nel cielo che aveva creato ogni essere vivente.",
+                    "15": "Avere un importante funzionario imperiale o un magistrato in famiglia ha caratterizzato la tua infanzia. Che si trattasse del collaboratore di un Pretore (per cause civili o penali), o dell’assistente di uno dei Comites (alti gradi dell’esercito o dell’amministrazione), o di uno degli Ediles (che si occupavano della distribuzione del cibo e della crescita della città), o di un Questore, poco importava: la tua qualità di vita ed educazione è stata molto superiore alla 2. Hai potuto frequentare delle ottime scuole private e non era inconsueto che, passeggiando in città, i tuoi genitori venissero salutati da esponenti delle istituzioni municipali e da membri della curia cittadina, che vi invitavano a grandi feste in splendidi palazzi fuori città.",
+                    "16": "Se nel tempo questo territorio s’era spopolato, il motivo era perché, indipendentemente dall’età, la gente moriva. Forse a causa di una febbre maligna originata nelle paludi, che spariva per qualche anno e tornava poi più virulenta che mai, oppure di una contagiosa epidemia portata dagli schiavi, che deturpava terribilmente i corpi prima di ucciderli, o anc di tisi e consunzione, che passavano dagli animali agli uomini, facendoli prima impazzire e poi morire nel dolore. Molti villaggi erano stati abbandonati e per strade giravano solo topi e branchi di cani randagi. Ma la tua famiglia era rimasta, perché tuo padre era medico e sacerdote di Asclepio e tua madre lo aiutava. giorno o di notte curavano i malati e assistevano i morenti, cercando di lenire la sofferenza, senza una vera speranza di poter salvar loro la vita. Quando an loro si sono ammalati, ti hanno mandato via, da lontani parenti. Non ne hai saputo più nulla.",
+                    "17": "Per te è stato entusiasmante abitare nei pressi di un importante e frequentato accesso del limes. Le genti che popolavano i territori che si trovavano al di là erano in pace con Roma da secoli, parlavano correntemente la lingua dell’Impero, avevano adottato molti dei suoi costumi e adoravano dèi simili. Il confine non rappresentava affatto un ostacolo ai commerci, le visite reciproche, i matrimoni misti. Anche i tuoi genitori, dei mercanti molto conosciuti, si recavano spesso in quelle terre straniere e, a partire da una certa età, ti portavano sempre con loro. A volte vi spingevate molto lontano, un po’ per lavoro, un po’ per desiderio di conoscenza e ammiravate le grandiose creazioni dell’uomo e della natura. Tua madre amava ripetere che, in fin dei conti, il confine era solo una questione mentale.",
+                    "18": "Chi arrivava senza essere preparato, rimaneva impressionato e incredulo di fronte alle possenti e grandiose fortificazioni che correvano per decine di miglia in questa zona del limes: fossati, torri di avvistamento, terrapieni, alti muri in pietra. Le opere difensive sembravano non bastare mai di fronte alla pressione dei crudeli popoli che cercavano ciclicamente di passare. Era sufficiente un inverno più rigido del solito, un’estate senza piogge o una morìa di bestiame ed ecco, centinaia di barbari armati e disperati si scagliavano con violenza contro tutto ciò che rappresentava Roma. Tuo padre dirigeva le operazioni militari dagli immensi castra. Non si faceva spaventare facilmente, né abbindolare dai discorsi di sedicenti saggi o dai pianti delle donne. Se Roma era ancora in piedi, era anche merito suo.",
+                    "19": "Tuo padre sapeva suonare decentemente svariati strumenti, ma erano tua madre e le sue sorelle che ballavano con la grazia delle dee ed erano molto richieste anche dai villaggi vicini per celebrazioni speciali e feste. Il lavoro non è mai mancato, anche se la tua famiglia ha dovuto imparare quali incarichi evitare, dato che in alcune occasioni la situazione si era fatta molto pesante. Le chiamavano feste “alla greca” e si svolgevano nelle grandi case o palazzi di funzionari e coloni arricchiti: più che feste, erano sfilate di danzatrici e prostitute che si spogliavano a richiesta davanti a giovani e vecchi che mangiavano e bevevano fino a perdere i sensi o diventare molesti e violenti.",
+                    "20": "Capitava spesso che, durante una celebrazione, la maggiore autorità tribale della regione avesse bevuto un po’ troppo e parlasse di quando, in un lontano passato, il suo villaggio era il più importante della zona. A quei tempi si offrivano sacrifici agli antichi dèi davanti a migliaia di fedeli e veri eserciti uscivano a dare battaglia. Non erano solo farneticazioni; i racconti tramandati nella tua famiglia trovavano una deprimente conferma se ci si aggirava in quella parte dell’abitato che si trovava dalla parte opposta rispetto alla strada di accesso al villaggio. Si poteva camminare sui ruderi di quello che un tempo era un villaggio molto più grande e popolato, di cui rimanevano solo rovine semisepolte che si estendevano per decine, forse centinaia di metri, fino a diventare quasi indistinguibili nel panorama. Il mondo era cambiato e gli antichi dèi non si facevano più vedere...",
+                    "21": "Tuo padre era un funzionario municipale minore, pagato poco e sempre al lavoro. Fungeva da segretario di qualche funzionario più importante o da semplice scrivano, oppure veniva inviato in giro per la città a completare incarichi di scarsa soddisfazione. A volte, doveva accompagnare tutta la notte uno dei Tresviri Nocturni nel pattugliamento delle strade e subire gli insulti dei giovani nobili ubriachi di ritorno da qualche bordello. Ha spesso dovuto arrangiarsi con altri lavori per far mantenere alla famiglia una parvenza di decoro e dignità; lavori faticosi, come quello di insegnare nelle malfrequentate scuole pubbliche, o pericolosi, come l’accettare soldi in cambio di favori e aiutare nella riscossione di denaro prestato a usura. ",
+                    "22": "Gli abitanti del tuo piccolo villaggio erano dediti alla stessa occupazione. Che si trattasse di segare giganteschi alberi e condurli poi a valle con l’aiuto della corrente di un fiume, scavare in una cava a cielo aperto oppure dentro i cunicoli di una miniera di sale, era in ogni caso un lavoro massacrante, adatto più a uno schiavo che a un uomo libero. Tuo padre era uno dei pochi che invece passava le giornate seduto a un tavolo, perché sapeva scrivere e far di conto. Il suo compito era quello di registrare tutto e compilare i rapporti settimanali, come la quantità di materiale prodotto, le paghe distribuite, gli attrezzi da sostituire e il numero di coloro che morivano a causa del lavoro. Questi ultimi non erano pochi e mai e poi mai avrebbe permesso che i suoi figli finissero a fare un lavoro simile.",
+                    "23": "La tua famiglia era aristocratica, come molte altre in città, ma si distingueva perché non tutti i suoi interessi erano indirizzati verso la politica o la magistratura. Nel grande palazzo patrizio dei tuoi genitori erano spesso invitati filosofi, studiosi di scienze naturali, retori e grandi medici, provenienti anche da luoghi molto distanti. In queste occasioni la vostra casa diventava un polo d’attrazione per l’élite intellettuale dell’intera provincia, trasformandosi in un cenacolo di studiosi e letterati: si leggevano ad alta voce passi dei grandi autori d’un tempo e venivano declamate poesie e orazioni. Sei vissuto in una specie di mondo separato dalla realtà, proiettato in un passato mitico popolato di dèi, santi e grandi filosofi, ma non era affatto una cosa spiacevole. Sei stato istruito al pari dei figli dei più nobili Senatori della stessa Roma!",
+                    "24": "“Gli dèi si sono rammolliti!” Era questa la frase preferita di tuo padre, un sacerdote di Giove Restitutor. Aveva l’incarico di officiare le celebrazioni e compiere i sacrifici in un tempio di antica costruzione, che fungeva da punto di riferimento per la comunità. Tutto procedeva al meglio, fino al giorno in cui era iniziata la costruzione di un santuario di Iside e Serapide, enorme, splendido, che in breve tempo aveva attirato folle enormi da tutta la regione, compresi coloro che fino a poco prima si recavano a pregare nel tempio di Giove. Da allora tuo padre si arrabbiava più facilmente e rimpiangeva i secoli passati, quando gli dèi non permettevano che culti stranieri, barbarici e volgari, mettessero radici all’interno dell’Impero. E se solo ci provavano, non passava molto tempo prima che le loro statue fossero gettate nel fiume, i loro sedicenti sacerdoti dati in pasto ai leoni e i loro fanatici seguaci costretti a vivere come topi nelle catacombe.",
+                    "25": "La tua famiglia gestiva una grande mansio (locanda) con taverna annessa. Legionari, ufficiali e gente di malaffare proveniente dai quattro angoli dell’Impero chiacchieravano volentieri con tuo padre e gli parlavano delle terre dove sorge il sole, di un dio antichissimo ma eternamente giovane, di anima immortale e di espiazione delle colpe. Ti ricordi come fosse ieri quando tuo padre ti ha portato per la prima volta con sé in una buia stanza rettangolare nei sotterranei di una grande casa e di come ti ha iniziato ai segreti del dio Mitra di fronte alla statua di un ragazzo che uccideva un gigantesco toro. Nella semioscurità, riconoscevi i volti di soldati, ufficiali e funzionari, ma se li incontravi per strada, di giorno, non ti salutavano neppure. In seguito ti hanno spiegato che si trattava di un culto misterico orientale, riconosciuto e tollerato dall’Impero, diffuso dai valli della Britannia ai grandi fiumi della Mesopotamia, ma che esigeva segretezza e discrezione.",
+                    "26": "Col passare degli anni, tuo padre era diventato sempre più asociale e taciturno. L’unica persona che vedeva volentieri era una specie di sacerdote-filosofo, che aveva deciso di trascorrere la vecchiaia il più lontano possibile dalle ‘orribili tentazioni del sordido sacco di fango’ che era il suo corpo fisico. Si diceva che fosse uno gnostico e che invece degli dèi adorasse quelli che chiamava i quattro grandi profeti: Orfeo, Abramo, Gesù e Apollonio di Tiana. Una mattina, tuo padre è uscito di casa e non è mai tornato. Ti hanno raccontato che aveva camminato per giorni fino a delle antiche rovine, era salito su un’alta colonna e non era più sceso. Ogni giorno, un numero crescente di proseliti andava da lui e gli portava da mangiare e da bere e restava per ore a venerarlo e a pregare. Anni dopo, sei andato a vedere coi tuoi occhi: tuo padre era magrissimo e sembrava avere cent’anni. Ti piace pensare che ti abbia riconosciuto e che quella smorfia sul suo viso fosse rimpianto.",
+                    "27": "Quelli che sarebbero diventati i tuoi nuovi genitori si occupavano dell’addestramento e della salute dei cavalli dei vicini castra. Ti hanno trovato in  di vita nel mezzo di una zona desolata, dove portavano i cavalli a correre e pascolare, unico sopravvissuto di un piccolo gruppo di stranieri morti di stenti, freddo, malattia o sbranati da animali selvati Ti hanno tenuto con loro e cresciuto come un figlio. Non è stato difficile immaginare cos’era successo: alcune famiglie delle genti al di là del limes erano dov scappare, a causa di una guerra interna, una carestia o un disastro naturale, abbandonando tutto quello che possedevano. Avevano oltrepassato il confine del glori e tollerante Impero romano di nascosto, pieni di speranza. Ma le autorità e gli abitanti dei villaggi li avevano cacciati, insultati e negato loro ogni aiuto. morte è stata probabilmente una liberazione.",
+                    "28": "Da piccolo ti raccontavano di confini attraversati da carovane che trasportavano merci preziose e oggetti mai visti, o da esotici emissari latori di messaggi di pace e di guerra, o da colonne di legionari che andavano a esportare la Pax Romana. Il tuo confine era molto diverso... Le terre che si estendevano al di là del muro o del grande fiume o di una li invisibile che si perdeva tra le sabbie, le montagne o il mare, sembravano prive di ogni traccia di essere umano. La natura lì dominava incontrastata, con le  brughiere o i deserti o le impenetrabili foreste. Da piccolo, hai passato ore sperando di scorgere un esercito invasore che giungesse a minacciare l’esiste dell’Impero e che scintillanti legioni romane l’affrontassero in una battaglia degna di Omero o Virgilio. Tuo padre, un pastore e i tuoi fratelli più grandi a vo aspettavano con te, raccontandoti incredibili storie su dèi ed eroi.",
+                    "29": "La villa della tua nobile famiglia non sfigurava rispetto alle altre: ugualmente grande e sfarzosa, con dozzine di schiavi che si occupavano dei lavori necessari per l’alimentazione, il vestiario e il mantenimento della casa. La tua famiglia viveva in una specie di economia chiusa, senza alcun bisogno di rivolgersi a lavoratori liberi come artigiani e piccoli commercianti: per ogni necessità bastavano gli schiavi. Per tutta la tua infanzia sei stato seguito da un precettore, che si occupava della tua istruzione, indirizzandoti verso il tuo futuro cursus honorum e all’auspicabile professione di avvocato o politico, in modo da poter accedere poi alle più importanti magistrature cittadine o al governatorato di una provincia. Come ha fatto tuo padre, e suo padre prima di lui.",
+                    "30": "La tua nobile famiglia si fregiava di essere imparentata con alcune delle famiglie aristocratiche più antiche, compresa quella del governatore. Non che si sia mai fatto vedere a casa vostra, a quanto ricordi. In ogni caso, come da tradizione, molti membri della tua famiglia avevano continuato il loro cursus honorum nel capoluogo della provincia e fatto carriall’interno della magistratura, ricevendo importanti incarichi politici o militari. Poi, uno di loro è stato accusato di corruzione e malversazione ed è stato sottoposto a processo. Nonostante i migliori avvocati, gli sono stati sequestrati i beni ed è stato mandato in esilio, in una località fin troppo vicina a quei popoli barbari che odiavRoma. Inviava molte lettere affinché la sua pena fosse sospesa il prima possibile, ma i tuoi genitori gli rispondevano di stare tranquillo, di aspettare che passassepo’ di tempo. E in futuro, di stare solo un po’ più attento."
+            },
+            "languages": {
+                "1": "Latino",
+                "2": "Etrusco",
+                "3": "Greco",
+                "4": "Italico (Osco)",
+                "5": "Gallico",
+                "6": "Punico",
+                "7": "Illirico",
+                "8": "Dacico",
+                "9": "Norico",
+                "10": "Tracico",
+                "11": "Frigio",
+                "12": "Germanico",
+                "13": "Iberico",
+                "14": "Celtico (Bretone)",
+                "15": "Celtico (Celtiberico)",
+                "16": "Britannico",
+                "17": "Celtico (Silurico)",
+                "18": "Retico",
+                "19": "Celtico (Belgico)",
+                "20": "Celtico (Helvetico)",
+                "21": "Aramaico",
+                "22": "Armeno",
+                "23": "Anatolico (Cilicio)",
+                "24": "Persiano",
+                "25": "Copto",
+                "26": "Ebraico",
+                "27": "Egiziano",
+                "28": "Arabo",
+                "29": "Berbero"
+            },
+            "equipment": {
+                "1": "abiti",
+                "2": "acciarino",
+                "3": "bastone", 
+                "4": "catena",
+                "5": "corda",
+                "6": "cote",
+                "7": "erba achillea",
+                "8": "falcetto",
+                "9": "gavetta",
+                "10": "pentola da campo",
+                "11": "rasoio",
+                "12": "razioni (7 giorni)",
+                "13": "sacca",
+                "14": "sega"
+            },
+            "gender": {
+                "male": "Maschio",
+                "female": "Femmina"
+            }
+        }
+    }

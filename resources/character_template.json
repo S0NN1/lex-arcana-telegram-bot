@@ -1,0 +1,102 @@
+{
+    "aetas": 36,
+    "bio": "9",
+    "city": "Bostra",
+    "combat_skills": "6",
+    "equip": [
+        "sagum",
+        "caligae",
+        "1",
+        "9",
+        "8",
+        "11",
+        "2",
+        "10",
+        "6",
+        "stilus",
+        "12",
+        "13",
+        "14",
+        "5"
+    ],
+    "equipment": {
+        "melee_weapons": [
+            "18"
+        ],
+        "ranged_weapons": [
+            "5"
+        ],
+        "shield": "Parma"
+    },
+    "gender": "female",
+    "grade": "Gregarius",
+    "house": "6",
+    "hp": 23,
+    "indigitamenta": "6",
+    "input_province": "Arabia",
+    "languages": [
+        "28",
+        "21",
+        "26"
+    ],
+    "max_hp": 23,
+    "max_pietas": 27,
+    "multipliers": {
+        "DeBello": 6,
+        "DeCorpore": 3,
+        "DeMagia": 2,
+        "DeNatura": 2,
+        "DeScientia": 3,
+        "DeSocietate": 2,
+        "MosArcanorum": 3,
+        "PaxDeorum": 3
+    },
+    "name": "Naevia Zenobia ",
+    "origin": "2",
+    "own_class": "6",
+    "peritiae": {
+        "DeBello": 16,
+        "DeCorpore": 6,
+        "DeMagia": 11,
+        "DeNatura": 12,
+        "DeScientia": 14,
+        "DeSocietate": 10
+    },
+    "pietas": 27,
+    "specs": [
+        {
+            "id": "specDeScientia1",
+            "peritiae": "specDeScientia",
+            "val": 1
+        },
+        {
+            "id": "specDeSocietate6",
+            "peritiae": "specDeSocietate",
+            "val": 1
+        },
+        {
+            "id": "specDeCorpore4",
+            "peritiae": "specDeCorpore",
+            "val": 2
+        },
+        {
+            "id": "specDeBello9",
+            "peritiae": "specDeBello",
+            "val": 1
+        },
+        {
+            "id": "specDeBello8",
+            "peritiae": "specDeBello",
+            "val": 1
+        }
+    ],
+    "virtutes": {
+        "Auctoritas": 10,
+        "Coordinatio": 7,
+        "Ingenium": 10,
+        "Ratio": 15,
+        "Sensibilitas": 13,
+        "Vigor": 13
+    },
+    "weight": 9
+}

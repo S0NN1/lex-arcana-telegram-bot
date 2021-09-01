@@ -1,0 +1,962 @@
+{
+    "origin": [
+        "1",
+        "2",
+        "5",
+        "3",
+        "4"
+    ],
+    "origins": {
+        "Roma Urbe": [
+            "1"
+        ],
+        "Italia": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "2",
+            "2",
+            "2",
+            "5",
+            "5",
+            "3"
+        ],
+        "Illyricum": [
+            "1",
+            "2",
+            "2",
+            "5",
+            "5",
+            "3",
+            "3",
+            "4",
+            "4",
+            "4"
+        ],
+        "Macedonia": [
+            "1",
+            "1",
+            "2",
+            "2",
+            "2",
+            "5",
+            "5",
+            "5",
+            "3",
+            "3"
+        ],
+        "Achaia": [
+            "1",
+            "1",
+            "1",
+            "2",
+            "2",
+            "2",
+            "5",
+            "5",
+            "5",
+            "3"
+        ],
+        "Gallia": [
+            "1",
+            "1",
+            "2",
+            "2",
+            "2",
+            "5",
+            "5",
+            "5",
+            "5",
+            "3"
+        ],
+        "Iberia": [
+            "1",
+            "1",
+            "2",
+            "2",
+            "2",
+            "2",
+            "5",
+            "5",
+            "5",
+            "3"
+        ],
+        "Britannia": [
+            "1",
+            "2",
+            "2",
+            "5",
+            "5",
+            "5",
+            "5",
+            "3",
+            "3",
+            "4"
+        ],
+        "Germania": [
+            "2",
+            "5",
+            "5",
+            "3",
+            "3",
+            "3",
+            "4",
+            "4",
+            "4",
+            "4"
+        ],
+        "Raetia": [
+            "2",
+            "2",
+            "5",
+            "5",
+            "3",
+            "3",
+            "3",
+            "4",
+            "4",
+            "4"
+        ],
+        "Thracia": [
+            "1",
+            "1",
+            "2",
+            "5",
+            "5",
+            "5",
+            "3",
+            "4",
+            "4",
+            "4"
+        ],
+        "Dacia": [
+            "1",
+            "2",
+            "5",
+            "5",
+            "5",
+            "3",
+            "3",
+            "4",
+            "4",
+            "4"
+        ],
+        "Asia": [
+            "1",
+            "1",
+            "1",
+            "2",
+            "2",
+            "5",
+            "5",
+            "5",
+            "3",
+            "3"
+        ],
+        "Armenia": [
+            "1",
+            "2",
+            "5",
+            "5",
+            "3",
+            "3",
+            "3",
+            "4",
+            "4",
+            "4"
+        ],
+        "Mesopotamia": [
+            "1",
+            "1",
+            "2",
+            "5",
+            "5",
+            "3",
+            "3",
+            "4",
+            "4",
+            "4"
+        ],
+        "Aegyptus": [
+            "1",
+            "1",
+            "1",
+            "2",
+            "5",
+            "5",
+            "3",
+            "3",
+            "4",
+            "4"
+        ],
+        "Syria": [
+            "1",
+            "1",
+            "1",
+            "2",
+            "2",
+            "2",
+            "5",
+            "5",
+            "3",
+            "4"
+        ],
+        "Arabia": [
+            "1",
+            "2",
+            "2",
+            "5",
+            "5",
+            "5",
+            "3",
+            "3",
+            "3",
+            "4"
+        ],
+        "Numidia": [
+            "1",
+            "2",
+            "5",
+            "3",
+            "4"
+        ],
+        "Mauretania": [
+            "1",
+            "2",
+            "2",
+            "5",
+            "5",
+            "3",
+            "3",
+            "3",
+            "4",
+            "4"
+        ]
+    },
+    "settlements": {
+        "Roma Urbe": {
+            "1": [
+                "Roma Urbe"
+            ]
+        },
+        "Italia": {
+            "1": [
+                "Syracusae",
+                "Mediolanum",
+                "Ravenna",
+                "Capua",
+                "Aquileia"
+            ],
+            "2": [
+                "Placentia",
+                "Ariminum",
+                "Neapolis",
+                "Brundisium",
+                "Aleria",
+                "Pisae",
+                "Caralis",
+                "Panormus",
+                "Rhegium",
+                "Tarentum",
+                "Arretium",
+                "Beneventum"
+            ]
+        },
+        "Illyricum": {
+            "1": [
+                "Sirmium",
+                "Virunum",
+                "Vindobona",
+                "Salona"
+            ],
+            "2": [
+                "Carnutum",
+                "Brigetio",
+                "Aquincum",
+                "Singidunum",
+                "Ulmnacium",
+                "Narona",
+                "Siscia",
+                "Elmona",
+                "Poetovio"
+            ]
+        },
+        "Macedonia": {
+            "1": [
+                "Thessalonica",
+                "Buthrotum",
+                "Naissus"
+            ],
+            "2": [
+                "Dyrrachium",
+                "Perinthus",
+                "Stobi",
+                "Scupi",
+                "Amphipolis",
+                "Philippi"
+            ]
+        },
+        "Achaia": {
+            "1": [
+                "Athenae",
+                "Corinthus"
+            ],
+            "2": [
+                "Patras",
+                "Argos",
+                "Delphi",
+                "Thebae",
+                "Sparta"
+            ]
+        },
+        "Gallia": {
+            "1": [
+                "Lugdunum",
+                "Lutetia",
+                "Durocortum",
+                "Burdigala",
+                "Nemasus"
+            ],
+            "2": [
+                "Massilia",
+                "Narbo",
+                "Augustodunum",
+                "Mogontiacum",
+                "Portus Namnetus",
+                "Rotomagus",
+                "Aquae Sextia",
+                "Agendicum"
+            ]
+        },
+        "Iberia": {
+            "1": [
+                "Corduba",
+                "Tarraco",
+                "Nova Carthago"
+            ],
+            "2": [
+                "Castra Legionis",
+                "Gades",
+                "Augusta Emerita",
+                "Felicitas Iulia",
+                "Brigantium",
+                "Caesaraugusta",
+                "Valentia",
+                "Saguntum"
+            ]
+        },
+        "Britannia": {
+            "1": [
+                "Londinium"
+            ],
+            "2": [
+                "Isca Dumnoniorum",
+                "Eboracum",
+                "Isca Silurum",
+                "Deva",
+                "Glevum",
+                "Camulodunum"
+            ]
+        },
+        "Germania": {
+            "1": [
+                "Augusta Treverorum"
+            ],
+            "2": [
+                "Argentoratum",
+                "Castra Vetera",
+                "Noviomagus",
+                "Gesoriacum",
+                "Bonna",
+                "Mogontiacum",
+                "Novaesium"
+            ]
+        },
+        "Raetia": {
+            "1": [
+                "Augusta Vindelicorum"
+            ],
+            "2": [
+                "Castra Regina"
+            ]
+        },
+        "Thracia": {
+            "1": [
+                "Byzantium",
+                "Philippopolis"
+            ],
+            "2": [
+                "Tomis",
+                "Troesmis",
+                "Durostorum",
+                "Novae",
+                "Nicopolis"
+            ]
+        },
+        "Dacia": {
+            "1": [
+                "Sarmizegetusa"
+            ],
+            "2": [
+                "Ulpia Traiana",
+                "Napoca",
+                "Apulum"
+            ]
+        },
+        "Asia": {
+            "1": [
+                "Nicomedia",
+                "Ephesus",
+                "Pergamum",
+                "Cyzicus"
+            ],
+            "2": [
+                "Zeugma",
+                "Attalia",
+                "Tarsus",
+                "Paphus",
+                "Sinope",
+                "Trapezus",
+                "Satala",
+                "Melitene",
+                "Samosata",
+                "Smyrna",
+                "Halicarnassus",
+                "Amisus",
+                "Thyana",
+                "Ancyra",
+                "Caesarea"
+            ]
+        },
+        "Armenia": {
+            "1": [
+                "Tigranocerta"
+            ],
+            "2": [
+                "Artaxata",
+                "Carana",
+                "Armavira"
+            ]
+        },
+        "Mesopotamia": {
+            "1": [
+                "Babylon"
+            ],
+            "2": [
+                "Ctesiphon",
+                "Cyrecesium",
+                "Seleucia",
+                "Singara"
+            ]
+        },
+        "Aegyptus": {
+            "1": [
+                "Ptolemais",
+                "Alexandria",
+                "Heliopolis",
+                "Memphis"
+            ],
+            "2": [
+                "Heroopolis",
+                "Heracleopolis",
+                "Cirene",
+                "Berenice",
+                "Taposiris Magna",
+                "Nikopolis",
+                "Aphroditopolis",
+                "Arsinoe",
+                "Likopolis",
+                "Hermopolis",
+                "Thinis",
+                "Antinopolis",
+                "Tentyris",
+                "Syene",
+                "Abaton",
+                "Philae"
+            ]
+        },
+        "Syria": {
+            "1": [
+                "Antiochia",
+                "Palmyra"
+            ],
+            "2": [
+                "Raphana",
+                "Berytus",
+                "Tyrus",
+                "Raphaneae",
+                "Apamea",
+                "Damascus"
+            ]
+        },
+        "Arabia": {
+            "1": [
+                "Hierosolima",
+                "Petra"
+            ],
+            "2": [
+                "Caesarea",
+                "Bostra",
+                "Gerara"
+            ]
+        },
+        "Numidia": {
+            "1": [
+                "Carthago",
+                "Cirta"
+            ],
+            "2": [
+                "Thapsus",
+                "Tacape",
+                "Thevestis",
+                "Lambaesis",
+                "Sicca",
+                "Zama Regia",
+                "Hadrumetum",
+                "Hippo Regius",
+                "Utica",
+                "Hippo Dyrrahitus"
+            ]
+        },
+        "Mauretania": {
+            "1": [
+                "Caesarea",
+                "Tingis"
+            ],
+            "2": [
+                "Saldae",
+                "Lixus",
+                "Volubilis",
+                "Certenna"
+            ]
+        }
+    },
+    "languages": {
+        "Roma Urbe": {
+            "fixed": [
+                "1"
+            ],
+            "choice": [
+                "2",
+                "3",
+                "4"
+            ]
+        },
+        "Italia": {
+            "fixed": [
+                "1"
+            ],
+            "choice": [
+                "2",
+                "3",
+                "4",
+                "5",
+                "6"
+            ]
+        },
+        "Illyricum": {
+            "fixed": [
+                "1",
+                "7"
+            ],
+            "choice": [
+                "8",
+                "3",
+                "9",
+                "10"
+            ]
+        },
+        "Macedonia": {
+            "fixed": [
+                "3"
+            ],
+            "choice": [
+                "7",
+                "1",
+                "10"
+            ]
+        },
+        "Achaia": {
+            "fixed": [
+                "3"
+            ],
+            "choice": [
+                "11",
+                "1"
+            ]
+        },
+        "Gallia": {
+            "fixed": [
+                "1",
+                "5"
+            ],
+            "choice": [
+                "12",
+                "13",
+                "14"
+            ]
+        },
+        "Iberia": {
+            "fixed": [
+                "1",
+                "13"
+            ],
+            "choice": [
+                "5",
+                "6",
+                "15"
+            ]
+        },
+        "Britannia": {
+            "fixed": [
+                "1",
+                "16"
+            ],
+            "choice": [
+                "5",
+                "17"
+            ]
+        },
+        "Germania": {
+            "fixed": [
+                "1",
+                "12"
+            ],
+            "choice": [
+                "18",
+                "19",
+                "5"
+            ]
+        },
+        "Raetia": {
+            "fixed": [
+                "1",
+                "18"
+            ],
+            "choice": [
+                "9",
+                "20",
+                "12"
+            ]
+        },
+        "Thracia": {
+            "fixed": [
+                "3",
+                "10"
+            ],
+            "choice": [
+                "7",
+                "1",
+                "8"
+            ]
+        },
+        "Dacia": {
+            "fixed": [
+                "1",
+                "10"
+            ],
+            "choice": [
+                "7",
+                "10"
+            ]
+        },
+        "Asia": {
+            "fixed": [
+                "3",
+                "1"
+            ],
+            "choice": [
+                "21",
+                "22",
+                "11",
+                "10",
+                "23"
+            ]
+        },
+        "Armenia": {
+            "fixed": [
+                "21",
+                "22"
+            ],
+            "choice": [
+                "1",
+                "3",
+                "24",
+                "11"
+            ]
+        },
+        "Mesopotamia": {
+            "fixed": [
+                "21",
+                "24"
+            ],
+            "choice": [
+                "22",
+                "1",
+                "3"
+            ]
+        },
+        "Aegyptus": {
+            "fixed": [
+                "3",
+                "25"
+            ],
+            "choice": [
+                "21",
+                "1",
+                "26",
+                "27"
+            ]
+        },
+        "Syria": {
+            "fixed": [
+                "3",
+                "21"
+            ],
+            "choice": [
+                "22",
+                "1",
+                "26",
+                "24"
+            ]
+        },
+        "Arabia": {
+            "fixed": [
+                "28",
+                "21"
+            ],
+            "choice": [
+                "25",
+                "1",
+                "26",
+                "3"
+            ]
+        },
+        "Numidia": {
+            "fixed": [
+                "1",
+                "6"
+            ],
+            "choice": [
+                "29",
+                "25",
+                "3"
+            ]
+        },
+        "Mauretania": {
+            "fixed": [
+                "1",
+                "6"
+            ],
+            "choice": [
+                "29",
+                "13"
+            ]
+        }
+    },
+    "province": {
+        "Roma Urbe": {
+            "DeBello": 1,
+            "DeCorpore": 2,
+            "DeMagia": 3,
+            "DeNatura": 0,
+            "DeScientia": 6,
+            "DeSocietate": 6
+        },
+        "Italia": {
+            "DeBello": 1,
+            "DeCorpore": 3,
+            "DeMagia": 3,
+            "DeNatura": 3,
+            "DeScientia": 4,
+            "DeSocietate": 4
+        },
+        "Illyricum": {
+            "DeBello": 5,
+            "DeCorpore": 4,
+            "DeMagia": 1,
+            "DeNatura": 3,
+            "DeScientia": 2,
+            "DeSocietate": 3
+        },
+        "Macedonia": {
+            "DeBello": 2,
+            "DeCorpore": 3,
+            "DeMagia": 4,
+            "DeNatura": 3,
+            "DeScientia": 3,
+            "DeSocietate": 3
+        },
+        "Achaia": {
+            "DeBello": 1,
+            "DeCorpore": 3,
+            "DeMagia": 3,
+            "DeNatura": 1,
+            "DeScientia": 5,
+            "DeSocietate": 5
+        },
+        "Gallia": {
+            "DeBello": 3,
+            "DeCorpore": 3,
+            "DeMagia": 2,
+            "DeNatura": 3,
+            "DeScientia": 4,
+            "DeSocietate": 3
+        },
+        "Iberia": {
+            "DeBello": 3,
+            "DeCorpore": 3,
+            "DeMagia": 2,
+            "DeNatura": 3,
+            "DeScientia": 3,
+            "DeSocietate": 4
+        },
+        "Britannia": {
+            "DeBello": 3,
+            "DeCorpore": 3,
+            "DeMagia": 5,
+            "DeNatura": 4,
+            "DeScientia": 2,
+            "DeSocietate": 1
+        },
+        "Germania": {
+            "DeBello": 6,
+            "DeCorpore": 3,
+            "DeMagia": 3,
+            "DeNatura": 4,
+            "DeScientia": 1,
+            "DeSocietate": 1
+        },
+        "Raetia": {
+            "DeBello": 5,
+            "DeCorpore": 3,
+            "DeMagia": 3,
+            "DeNatura": 5,
+            "DeScientia": 1,
+            "DeSocietate": 1
+        },
+        "Thracia": {
+            "DeBello": 4,
+            "DeCorpore": 4,
+            "DeMagia": 3,
+            "DeNatura": 4,
+            "DeScientia": 1,
+            "DeSocietate": 2
+        },
+        "Dacia": {
+            "DeBello": 5,
+            "DeCorpore": 4,
+            "DeMagia": 3,
+            "DeNatura": 3,
+            "DeScientia": 2,
+            "DeSocietate": 1
+        },
+        "Asia": {
+            "DeBello": 1,
+            "DeCorpore": 3,
+            "DeMagia": 3,
+            "DeNatura": 2,
+            "DeScientia": 5,
+            "DeSocietate": 4
+        },
+        "Armenia": {
+            "DeBello": 3,
+            "DeCorpore": 4,
+            "DeMagia": 1,
+            "DeNatura": 5,
+            "DeScientia": 3,
+            "DeSocietate": 2
+        },
+        "Mesopotamia": {
+            "DeBello": 3,
+            "DeCorpore": 3,
+            "DeMagia": 5,
+            "DeNatura": 2,
+            "DeScientia": 3,
+            "DeSocietate": 2
+        },
+        "Aegyptus": {
+            "DeBello": 2,
+            "DeCorpore": 2,
+            "DeMagia": 5,
+            "DeNatura": 1,
+            "DeScientia": 5,
+            "DeSocietate": 3
+        },
+        "Syria": {
+            "DeBello": 3,
+            "DeCorpore": 2,
+            "DeMagia": 3,
+            "DeNatura": 1,
+            "DeScientia": 4,
+            "DeSocietate": 5
+        },
+        "Arabia": {
+            "DeBello": 2,
+            "DeCorpore": 2,
+            "DeMagia": 4,
+            "DeNatura": 2,
+            "DeScientia": 3,
+            "DeSocietate": 5
+        },
+        "Numidia": {
+            "DeBello": 4,
+            "DeCorpore": 3,
+            "DeMagia": 1,
+            "DeNatura": 5,
+            "DeScientia": 2,
+            "DeSocietate": 3
+        },
+        "Mauretania": {
+            "DeBello": 3,
+            "DeCorpore": 3,
+            "DeMagia": 3,
+            "DeNatura": 6,
+            "DeScientia": 1,
+            "DeSocietate": 2
+        }
+    },
+    "house": {
+        "1": [
+            "6",
+            "1",
+            "3",
+            "17",
+            "11",
+            "23"
+        ],
+        "2": [
+            "6",
+            "8",
+            "10",
+            "19",
+            "18",
+            "23"
+        ],
+        "5": [
+            "7",
+            "3",
+            "15",
+            "5",
+            "16",
+            "22"
+        ],
+        "3": [
+            "2",
+            "4",
+            "19",
+            "17",
+            "12",
+            "11"
+        ],
+        "4": [
+            "9",
+            "21",
+            "20",
+            "13",
+            "19",
+            "14"
+        ]
+    }
+}
