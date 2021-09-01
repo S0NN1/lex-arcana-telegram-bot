@@ -3,7 +3,7 @@ import logging
 from os.path import join, dirname
 from os import getcwd, path
 from dotenv import load_dotenv
-from commands import utils, start, campaign, easter_eggs
+from commands import utils, start, campaign
 from telegram.ext import Updater, CallbackQueryHandler, PicklePersistence
 
 cwd = getcwd()
