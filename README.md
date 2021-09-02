@@ -67,8 +67,8 @@ TOKEN=<bot father token>
 </p>
 
 <p float="center">
-  <img src="https://res.cloudinary.com/s0nn1/image/upload/v1630568665/telegram-bot/image_2021-09-01_18-58-57_zstjev.png" width="480" />
-  <img src="https://res.cloudinary.com/s0nn1/image/upload/v1630568665/telegram-bot/image_2021-09-01_18-59-41_sixzvw.png" width="480" /> 
+  <img src="https://res.cloudinary.com/s0nn1/image/upload/v1630572750/telegram-bot/image_2021-09-01_18-58-57_o9yao9.png" width="480" />
+  <img src="https://res.cloudinary.com/s0nn1/image/upload/v1630572751/telegram-bot/image_2021-09-01_18-59-41_sonca4.png" width="480" /> 
 </p>
 
 <p float="center">
