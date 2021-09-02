@@ -61,16 +61,21 @@ TOKEN=<bot father token>
 
 ![](https://res.cloudinary.com/s0nn1/image/upload/v1630568664/telegram-bot/image_2021-09-01_18-54-58_qn4c0w.png)
 
-<img style="align: left;" height="700" src="https://res.cloudinary.com/s0nn1/image/upload/v1630568665/telegram-bot/image_2021-09-01_18-56-20_jmgzsx.png">
+<p float="center">
+  <img src="https://res.cloudinary.com/s0nn1/image/upload/v1630568665/telegram-bot/image_2021-09-01_18-56-20_jmgzsx.png" width="480" />
+  <img src="https://res.cloudinary.com/s0nn1/image/upload/v1630568665/telegram-bot/image_2021-09-01_18-56-14_nhjbpq.png" width="480" /> 
+</p>
 
-<img style="align: right;" height="700" src="https://res.cloudinary.com/s0nn1/image/upload/v1630568665/telegram-bot/image_2021-09-01_18-56-14_nhjbpq.png">
+<p float="center">
+  <img src="https://res.cloudinary.com/s0nn1/image/upload/v1630568665/telegram-bot/image_2021-09-01_18-58-57_zstjev.png" width="480" />
+  <img src="https://res.cloudinary.com/s0nn1/image/upload/v1630568665/telegram-bot/image_2021-09-01_18-59-41_sixzvw.png" width="480" /> 
+</p>
 
-<img style="align: right;" height="700" src="https://res.cloudinary.com/s0nn1/image/upload/v1630568665/telegram-bot/image_2021-09-01_18-58-57_zstjev.png">
+<p float="center">
+  <img src="https://res.cloudinary.com/s0nn1/image/upload/v1630568665/telegram-bot/image_2021-09-01_19-02-42_dona0w.png" width="480" />
+  <img src="https://res.cloudinary.com/s0nn1/image/upload/v1630568664/telegram-bot/Telegram_WGWlLVrx7p_tbs5bv.png" width="480" /> 
+</p>
 
-<img style="align: right;" height="700" src="https://res.cloudinary.com/s0nn1/image/upload/v1630568665/telegram-bot/image_2021-09-01_18-59-41_sixzvw.png">
-
-<img style="align: left;" height="700" src="https://res.cloudinary.com/s0nn1/image/upload/v1630568665/telegram-bot/image_2021-09-01_19-02-42_dona0w.png">
-
-<img style="align: left;" height="700" src="https://res.cloudinary.com/s0nn1/image/upload/v1630568664/telegram-bot/Telegram_WGWlLVrx7p_tbs5bv.png">
-
-<img style="align: left;" height="700" src="https://res.cloudinary.com/s0nn1/image/upload/v1630568664/telegram-bot/image_2021-09-01_19-03-15_zazb0y.png">
+<p float="center">
+  <img src="https://res.cloudinary.com/s0nn1/image/upload/v1630568664/telegram-bot/image_2021-09-01_19-03-15_zazb0y.png" width="480" />
+</p>
