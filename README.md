@@ -1,4 +1,4 @@
-# Lex Arcana Telegram Bot
+# Lex Arcana Telegram Bot 🤖
 
 <img src="https://res.cloudinary.com/s0nn1/image/upload/v1630483709/photo_2021-07-22_14-08-34_nnizhb.jpg" width=300 height=300 align="right"/>
 
@@ -14,7 +14,7 @@ This bot was evaluated for the course "**Computer Engineering Project**" of Poli
 
 Further information can be found in the bot description.
 
-## Installation
+## Installation 🔧
 
 ### Requirements
 
@@ -57,7 +57,7 @@ Remember to create a `.env` file in the repo directory and insert the **BotFathe
 TOKEN=<bot father token>
 ```
 
-## Screenshots
+## Screenshots 📷
 
 ![](https://res.cloudinary.com/s0nn1/image/upload/v1630568664/telegram-bot/image_2021-09-01_18-54-58_qn4c0w.png)
 
