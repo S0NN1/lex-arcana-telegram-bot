@@ -13,3 +13,64 @@ This bot was evaluated for the course "**Computer Engineering Project**" of Poli
 **Bot username**: [@lex_arcana_bot](https://t.me/lex_arcana_bot)
 
 Further information can be found in the bot description.
+
+## Installation
+
+### Requirements
+
+- Python 3.8.10 o superiore.
+
+### Procedure
+
+In order to run and test the bot, clone the repo and install the dependencies through `pip` command:
+
+```bash
+git clone https://github.com/S0NN1/lex-arcana-telegram-bot.git
+
+cd lex-arcana-telegram-bot
+
+pip3 install -r requirements.txt
+
+python3 main.py
+```
+
+If you want to create a service via `systemctl` to run the bot in the background you can use the provided configuration and change the paths in it:
+
+```bash
+[Unit]
+Description=Lex Arcana
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=5
+ExecStart=/home/sonny/.pyenv/shims/python /home/sonny/master/main.py
+WorkingDirectory=/home/sonny/master
+
+[Install]
+WantedBy=multi-user.target
+```
+
+Remember to create a `.env` file in the repo directory and insert the **BotFather** token like this:
+
+```.env
+TOKEN=<bot father token>
+```
+
+## Screenshots
+
+![](https://res.cloudinary.com/s0nn1/image/upload/v1630568664/telegram-bot/image_2021-09-01_18-54-58_qn4c0w.png)
+
+<img style="align: left;" height="700" src="https://res.cloudinary.com/s0nn1/image/upload/v1630568665/telegram-bot/image_2021-09-01_18-56-20_jmgzsx.png">
+
+<img style="align: right;" height="700" src="https://res.cloudinary.com/s0nn1/image/upload/v1630568665/telegram-bot/image_2021-09-01_18-56-14_nhjbpq.png">
+
+<img style="align: right;" height="700" src="https://res.cloudinary.com/s0nn1/image/upload/v1630568665/telegram-bot/image_2021-09-01_18-58-57_zstjev.png">
+
+<img style="align: right;" height="700" src="https://res.cloudinary.com/s0nn1/image/upload/v1630568665/telegram-bot/image_2021-09-01_18-59-41_sixzvw.png">
+
+<img style="align: left;" height="700" src="https://res.cloudinary.com/s0nn1/image/upload/v1630568665/telegram-bot/image_2021-09-01_19-02-42_dona0w.png">
+
+<img style="align: left;" height="700" src="https://res.cloudinary.com/s0nn1/image/upload/v1630568664/telegram-bot/Telegram_WGWlLVrx7p_tbs5bv.png">
+
+<img style="align: left;" height="700" src="https://res.cloudinary.com/s0nn1/image/upload/v1630568664/telegram-bot/image_2021-09-01_19-03-15_zazb0y.png">
