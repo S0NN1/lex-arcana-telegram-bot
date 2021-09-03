@@ -16,7 +16,7 @@ Further information can be found in the bot description.
 
 ### Requirements
 
-- Python 3.8.10 o superiore.
+- Python 3.8.10 or above.
 
 ### Procedure
 
